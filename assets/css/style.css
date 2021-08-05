@@ -1,3 +1,17 @@
-body {
-    font-family: 'Courier New', Courier, monospace;
+/*Logo font*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
+
+#logo {
+    font-family: Pacifico, sans-serif;
+    float: left;
+    font-size: 200%;
+    margin: 8px 0 0 20px;
+    color: #98597aff;
+}
+
