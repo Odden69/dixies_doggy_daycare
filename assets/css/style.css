@@ -31,3 +31,11 @@
     text-decoration: none;
 }
 
+/* Hero image */
+
+#hero-image {
+    height: 650px;
+    width: 100%;
+    background: url('../images/hero_image.jpg') no-repeat center center;
+    background-size: cover;
+} 
