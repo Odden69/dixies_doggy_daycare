@@ -16,8 +16,9 @@
 }
 
 /* Navigation links */
- 
-#menu, header div {
+
+#menu,
+header div {
     clear: both;
 }
 
@@ -38,4 +39,17 @@
     width: 100%;
     background: url('../images/hero_image.jpg') no-repeat center center;
     background-size: cover;
-} 
+}
+
+/* Media queries*/
+
+/* For screen ratios up to 1:1 */
+
+@media screen and (orientation: landscape) {
+    #hero-image {
+        height: 650px;
+        width: 100%;
+        background: url('../images/hero_image_2.jpg') no-repeat center top;
+        background-size: cover;
+    }
+}
