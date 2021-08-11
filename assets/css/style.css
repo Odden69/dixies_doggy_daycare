@@ -52,6 +52,17 @@ header div {
     background-size: cover;
 }
 
+/* Footer */
+
+.footer {
+    height: 150px;
+}
+
+.social-media-links {
+    list-style-type: none;
+    float: left;
+}
+
 /* Media queries*/
 
 /* For screen ratios up to 1:1 */
