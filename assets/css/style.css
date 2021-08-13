@@ -1,5 +1,5 @@
 /*Logo font*/
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -10,6 +10,7 @@
 .wrap {
     max-width: 960px;
     margin: 0 auto;
+    font-family: Roboto, sans-serif
 }
 
 .header {
