@@ -29,7 +29,7 @@
 /* Navigation links */
 
 #menu,
-header div {
+header {
     clear: both;
 }
 
@@ -42,6 +42,12 @@ header div {
 #menu a {
     text-decoration: none;
     color: #001414;
+}
+
+/* Change schedule button */
+.change-schedule {
+    float: right;
+    margin-right: 20px;
 }
 
 /* Hero image */
