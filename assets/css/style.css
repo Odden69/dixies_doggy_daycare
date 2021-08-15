@@ -64,13 +64,44 @@
     margin-right: 20px;
 }
 
-/* Hero image */
+/* Hero image and logo*/
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
 
 #hero-image {
     height: 650px;
     width: 100%;
     background: url('../images/hero_image.jpg') no-repeat center center;
     background-size: cover;
+}
+
+#cover-logo {
+    width: 300px;
+    height: 200px;
+    /* background-color: rgba(224, 184, 192, 0.7); */
+    left: 5%;
+    top: 50px;
+    position: absolute;
+}
+
+#main-logo {
+    font-family: Pacifico;
+    font-size: 600%;
+    height: 130px;
+}
+
+#sub-logo-1 {
+    font-size: 300%;
+    padding-left: 70px;
+}
+
+#sub-logo-2 {
+    font-size: 300%;
+    padding-left: 115px;
 }
 
 /* Footer */
