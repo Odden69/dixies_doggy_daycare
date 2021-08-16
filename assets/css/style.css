@@ -175,7 +175,7 @@ footer {
 
 /* For screen ratios up to 1:1 */
 
-/*@media screen and (orientation: landscape) {
+/*@media screen and () {
     #hero-image {
         height: 650px;
         width: 100%;
@@ -183,3 +183,35 @@ footer {
         background-size: cover;
     }
 }*/
+
+@media screen and (max-height: 750px ) {
+    #cover-text {
+        width: 300px;
+    height: 150px;
+    background-color: rgba(224, 184, 192, 0.8);
+    left: 5%;
+    top: 400px;
+    padding: 25px;
+    position: absolute;
+    }
+
+    body {
+        min-height: 100vh;
+        display: block;
+        /*flex-direction: column;*/
+        max-width: 1366px;
+        margin: 0 auto;
+        font-family: Roboto, sans-serif;
+    }
+
+    #hero-outer {
+        height: 600px;
+        /*width: 100%;*/
+        position: relative;
+        background: url('../images/hero_image.jpg') no-repeat center center fixed;
+        flex-grow: 1;
+        background-position-x: 70%;
+        background-position-y: 25%;
+        background-size: 100%;
+    }
+}
