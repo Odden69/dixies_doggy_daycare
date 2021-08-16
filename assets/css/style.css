@@ -53,12 +53,12 @@ header {
 #menu a {
     text-decoration: none;
     padding: 2px 5px;
-    border-radius: 3px;
 }
 
 .active {
     background: #984152;
     color: white;
+    border-radius: 3px;
 }
 
 /* Change schedule button */
@@ -67,6 +67,11 @@ header {
     margin-right: 20px;
 }
 
+.button {
+    background: #984152;
+    color: white;
+    border-radius: 3px;
+}
 /* Hero image and logo*/
 
 #hero-outer {
@@ -131,7 +136,7 @@ header {
 
 #whats-up {
     width: 230px;
-    height: 100px;
+    height: 110px;
     background-color: rgba(224, 184, 192, 0.8);
     right: 2%;
     bottom: 50px;
@@ -152,6 +157,7 @@ header {
 #whats-up > button {
     padding: 6px;
     margin: 0 auto;
+    display: block;
 }
 
 /* Footer */
