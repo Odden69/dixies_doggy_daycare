@@ -187,7 +187,7 @@ footer {
 
 /* For screen height max 750px */
 
-@media screen and (max-height: 750px) {
+@media screen and (max-height: 750px) and (min-width: 845px) {
     #cover-text {
         width: 300px;
         height: 150px;
@@ -216,5 +216,75 @@ footer {
         background-position-x: 70%;
         background-position-y: 25%;
         background-size: 100%;
+    }
+}
+
+/* For screen width < 845px */
+
+@media screen and (max-width: 845px) {
+    #cover-logo {
+        width: 300px;
+        height: 200px;
+        left: 5%;
+        top: 50px;
+        position: absolute;
+    }
+
+    #main-logo {
+        font-family: Pacifico;
+        font-size: 400%;
+        height: 87px;
+    }
+
+    #sub-logo-1 {
+        font-size: 185%;
+        padding-left: 45px;
+    }
+
+    #sub-logo-2 {
+        font-size: 185%;
+        padding-left: 65px;
+    }
+
+    #cover-text {
+        width: 200px;
+        height: 110px;
+        background-color: rgba(224, 184, 192, 0.8);
+        left: 3%;
+        top: 322px;
+        padding: 12px;
+        position: absolute;
+    }
+
+    #cover-text>h2 {
+        font-size: 100%;
+        margin-bottom: 15px;
+        line-height: 1.5;
+    }
+
+    #whats-up {
+        width: 175px;
+        height: 100px;
+        background-color: rgba(224, 184, 192, 0.8);
+        right: 5%;
+        top: 355px;
+        padding: 12px;
+        position: absolute;
+    }
+
+    #whats-up>h2 {
+        font-size: 95%;
+        margin-bottom: 10px;
+    }
+
+    #whats-up>h3 {
+        font-size: 85%;
+        margin-bottom: 5px;
+    }
+
+    #whats-up>button {
+        padding: 6px;
+        margin: 0 auto;
+        display: block;
     }
 }
