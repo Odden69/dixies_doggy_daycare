@@ -72,6 +72,7 @@ header {
     color: white;
     border-radius: 3px;
 }
+
 /* Hero image and logo*/
 
 #hero-outer {
@@ -128,7 +129,7 @@ header {
     position: absolute;
 }
 
-#cover-text > h2 {
+#cover-text>h2 {
     font-size: 150%;
     margin-bottom: 15px;
     line-height: 1.5;
@@ -144,17 +145,17 @@ header {
     position: absolute;
 }
 
-#whats-up > h2 {
+#whats-up>h2 {
     font-size: 150%;
     margin-bottom: 10px;
 }
 
-#whats-up > h3 {
+#whats-up>h3 {
     /* font-size: 100%; */
     margin-bottom: 5px;
 }
 
-#whats-up > button {
+#whats-up>button {
     padding: 6px;
     margin: 0 auto;
     display: block;
@@ -184,15 +185,17 @@ footer {
     }
 }*/
 
-@media screen and (max-height: 750px ) {
+/* For screen height max 750px */
+
+@media screen and (max-height: 750px) {
     #cover-text {
         width: 300px;
-    height: 150px;
-    background-color: rgba(224, 184, 192, 0.8);
-    left: 5%;
-    top: 400px;
-    padding: 25px;
-    position: absolute;
+        height: 150px;
+        background-color: rgba(224, 184, 192, 0.8);
+        left: 5%;
+        top: 370px;
+        padding: 25px;
+        position: absolute;
     }
 
     body {
@@ -206,10 +209,10 @@ footer {
 
     #hero-outer {
         height: 600px;
-        /*width: 100%;*/
+        width: 100%;
         position: relative;
-        background: url('../images/hero_image.jpg') no-repeat center center fixed;
-        flex-grow: 1;
+        background: url('../images/hero_image.jpg') no-repeat center center;
+        /*flex-grow: 1;*/
         background-position-x: 70%;
         background-position-y: 25%;
         background-size: 100%;
