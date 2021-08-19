@@ -28,6 +28,7 @@ body {
 header {
     background-color: #e4e4e2;
     height: 75px;
+    position: relative;
 }
 
 #logo {
@@ -293,14 +294,14 @@ footer {
 
 @media screen and (max-height: 640px) and (max-width: 845px) {
     #hero-outer {
-        height: 528px;
+        height: 530px;
         width: 100%;
         position: relative;
         background: url(../images/hero_image_2.jpg) no-repeat;
         /* flex-grow: 1; */
-        background-position-x: 6%;
-        background-position-y: 50%;
-        background-size: 117%;
+        background-position-x: 4%;
+        background-position-y: top;
+        background-size: 118%;
     }
 
     #cover-logo {
@@ -349,6 +350,94 @@ footer {
         background-color: rgba(224, 184, 192, 0.8);
         right: 5%;
         top: 355px;
+        padding: 12px;
+        position: absolute;
+    }
+
+    #whats-up>h2 {
+        font-size: 95%;
+        margin-bottom: 10px;
+    }
+
+    #whats-up>h3 {
+        font-size: 85%;
+        margin-bottom: 5px;
+    }
+
+    #whats-up>button {
+        padding: 6px;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+/* For screen width < 480px */ 
+
+@media screen and (max-width: 480px) {
+
+    .change-schedule {
+        margin-right: 0px;
+        position: absolute;
+        right: 10px;
+        top: 5px;
+    }
+
+    #hero-outer {
+        height: 610px;
+        width: 100%;
+        position: relative;
+        background: url(../images/hero_image.jpg) no-repeat;
+        background-position-x: left;
+        background-position-y: top;
+        background-size: 130%;
+    }
+
+    #cover-logo {
+        width: 300px;
+        height: 200px;
+        left: 5%;
+        top: 8px;
+        position: absolute;
+    }
+
+    #main-logo {
+        font-family: Pacifico;
+        font-size: 400%;
+        height: 87px;
+    }
+
+    #sub-logo-1 {
+        font-size: 185%;
+        padding-left: 45px;
+    }
+
+    #sub-logo-2 {
+        font-size: 185%;
+        padding-left: 65px;
+    }
+
+    #cover-text {
+        width: 200px;
+        height: 110px;
+        background-color: rgba(224, 184, 192, 0.8);
+        left: 3%;
+        top: 322px;
+        padding: 12px;
+        position: absolute;
+    }
+
+    #cover-text>h2 {
+        font-size: 100%;
+        margin-bottom: 15px;
+        line-height: 1.5;
+    }
+
+    #whats-up {
+        width: 175px;
+        height: 100px;
+        background-color: rgba(224, 184, 192, 0.8);
+        right: 5%;
+        top: 480px;
         padding: 12px;
         position: absolute;
     }
