@@ -192,13 +192,18 @@ footer {
     color: inherit;
 }
 
+footer i {
+    font-size: small;
+    padding-right: 10px;
+}
+
 .footer-center {
     text-align: center;
 }
 
 #logo-bottom {
     font-family: Pacifico, sans-serif;
-    font-size: 175%;
+    font-size: 150%;
     margin: 10px 0 5px 0;
 }
 
