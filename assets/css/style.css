@@ -56,7 +56,18 @@ header {
     padding: 2px 5px;
 }
 
+#menu a:hover {
+    background: rgb(224, 184, 192);
+    border-radius: 3px;
+}
+
 .active {
+    background: #984152;
+    color: white;
+    border-radius: 3px;
+}
+
+#menu .active:hover {
     background: #984152;
     color: white;
     border-radius: 3px;
@@ -66,6 +77,12 @@ header {
 .change-schedule {
     float: right;
     margin-right: 20px;
+    padding: 2px 5px;
+}
+
+.change-schedule:hover {
+    background: rgb(224, 184, 192);
+    border-radius: 3px;
 }
 
 .button {
@@ -191,6 +208,10 @@ footer {
     text-decoration: none;
     color: inherit;
 }
+
+.social-media-links a:hover {
+    font-size: medium;
+} 
 
 footer i {
     font-size: small;
