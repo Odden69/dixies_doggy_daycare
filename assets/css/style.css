@@ -31,7 +31,7 @@ header {
     position: relative;
 }
 
-#logo {
+#logo-top {
     font-family: Pacifico, sans-serif;
     float: left;
     font-size: 120%;
@@ -165,12 +165,51 @@ header {
 /* Footer */
 
 footer {
+    background-color: #e4e4e2;
+}
+#footer {
     height: 75px;
+    font-size: x-small;
+    margin: 0 20%;
+    padding:5px 0 5px;
+}
+
+#footer ul {
+    list-style-type: none;
+    display: inline-block;
+    width: 30%;
 }
 
 .social-media-links {
     list-style-type: none;
-    float: left;
+    padding: 0 20px;
+    border-right: solid 1px #001414;
+    text-align: left;
+}
+
+.social-media-links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-center {
+    text-align: center;
+}
+
+#logo-bottom {
+    font-family: Pacifico, sans-serif;
+    font-size: 175%;
+    margin: 10px 0 5px 0;
+}
+
+.contacts {
+    list-style-type: none;
+    border-left: solid 1px #001414;
+    text-align: right;
+}
+
+/*.contacts li {
+    text-align: left;
 }
 
 /* Media queries*/
@@ -393,8 +432,8 @@ footer {
     }
 
     #cover-logo {
-        width: 300px;
-        height: 200px;
+        width: 200px;
+        height: 125px;
         left: 5%;
         top: 8px;
         position: absolute;
