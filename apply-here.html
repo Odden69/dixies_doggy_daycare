@@ -1,1 +1,34 @@
 <a href="index.html">Home</a>
+
+<form action="#" method="POST">
+    <h2>Apply for daycare</h2>
+    <label for="dogs-name">Dog's Name:*</label><br>
+    <input id="dogs-name" type="text" name="dogs-name" required><br><br>
+    <label for="dogs-age">Age of dog:*</label><br>
+    <input id="dogs-age" type="number" name="dogs-age" required>
+    <select name="year-month" required>
+        <option value="year" selected>Years</option>
+        <option value="month">Months</option>
+    </select><br><br>
+    <label for="gender">Dog's Gender:*</label><br>
+    <select name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select><br><br>
+    <label for="dogs-breed">Dog's Breed:</label><br>
+    <input id="dogs-breed" type="text" name="dogs-breed"><br><br>
+        <label for="day-length">Length of day:*</label><br>
+    <select name="day-length" required>
+        <option value="part-time">Part Time</option>
+        <option value="full-time" selected>Full Time</option>
+    </select><br><br>
+    <label for="owner-fname">Owner's First Name:*</label><br>
+    <input id="owner-fname" type="text" name="owner-fname" required><br><br>
+    <label for="owner-lname">Owner's Last Name:*</label><br>
+    <input id="owner-lname" type="text" name="owner-lname" required><br><br>
+    <label for="e-mail">E-mail:*</label><br>
+    <input id="e-mail" type="email" name="e-mail" required><br><br>
+    <label for="info">Additional information:</label><br>
+    <textarea name="nfo" id="info" placeholder="Is there more information about you or your dog you like to share?" rows="10" cols="40"></textarea><br><br>
+    <input type="submit" value="Submit">
+</form>
