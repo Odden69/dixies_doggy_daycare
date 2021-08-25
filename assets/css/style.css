@@ -24,6 +24,10 @@ body {
     color: #984152
 }
 
+.logo-font {
+    font-family: Pacifico;
+}
+
 /* Header */
 header {
     background-color: #e4e4e2;
@@ -89,6 +93,10 @@ header {
     background: #984152;
     color: white;
     border-radius: 3px;
+}
+
+.button-container {
+    text-align: center;
 }
 
 /* Hero image and logo*/
@@ -236,13 +244,96 @@ footer i {
 .contacts {
     list-style-type: none;
     border-left: solid 1px #001414;
-    text-align: right;
+    text-align: right;  
 }
 
 /*.contacts li {
     text-align: left;
+}*/
+
+/* Application form*/
+
+#apply {
+    padding: 0 0 8px 2px;
 }
 
+#app-form {
+    height: 570px;
+    width: 550px;
+    background-color: rgb(224, 184, 192);
+    padding: 10px;
+    position: relative;
+}
+
+#app-form label {
+    font-size: medium;
+}
+
+input {
+    font-family: Roboto;
+    font-size: medium;
+    padding: 0 10px;
+    border-radius: 2px;
+    margin-top: 3px;
+    line-height: 30px;
+}
+
+input:focus {
+    border: #984152 2px;
+}
+
+.half-row {
+   display: inline-block;
+   width: 48%;
+   padding: 0 3px;
+}
+
+.half-row input {
+    width: 100%;
+}
+
+.third-row {
+    display: inline-block;
+    padding: 0;
+    margin: 0 6px 0 3px;
+}
+
+/*#year-month {
+    margin-top: 1px;
+}*/
+
+#e-mail, textarea {
+    width: 533px;
+}
+
+select,
+textarea {
+    border-radius: 2px;
+    font-family: Roboto;
+    font-size: medium;
+    padding: 0 10px;
+    margin-top: 3px;
+}
+
+select {
+    height: 30px;
+}
+
+option {
+    font-size: medium;
+}
+
+textarea {
+    height: 90px;
+}
+
+
+#app-form p {
+    font-size: small;
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+}
 /* Media queries*/
 
 /* For screen ratios up to 1:1 */
