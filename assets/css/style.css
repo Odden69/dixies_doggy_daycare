@@ -199,7 +199,7 @@ footer {
 }
 #footer-container {
     height: 75px;
-    font-size: x-small;
+    font-size: small;
     margin: 0 10%;
     padding:5px 0 5px;
 }
@@ -617,4 +617,33 @@ textarea {
         margin: 0 auto;
         display: block;
     }
+
+    /* Footer */
+#footer-container {
+    font-size: x-small;
+    margin: 0 2%;
+}
+
+#facebook,
+#instagram,
+#twitter {
+    display: none;
+}
+
+#footer-container .social-media-links {
+    width: 10%;
+    border-right: none;
+} 
+
+#footer-container .footer-center {
+    width: 28%;
+    border-right: none;
+} 
+
+#footer-container .contacts {
+    width:60%;
+    border-left: none;
+
+}
+
 }
