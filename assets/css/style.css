@@ -529,6 +529,21 @@ textarea {
         margin: 0 auto;
         display: block;
     }
+
+    /* Footer */
+
+    #footer-container {
+        margin: 0 3%;
+    }
+
+    #footer-container .social-media-links,
+    #footer-container .contacts {
+        width: 38%;
+    } 
+    
+    #footer-container .footer-center {
+        width: 22%;
+    } 
 }
 
 /* For screen width < 480px */ 
@@ -641,7 +656,7 @@ textarea {
 } 
 
 #footer-container .contacts {
-    width:60%;
+    width: 59%;
     border-left: none;
 
 }
