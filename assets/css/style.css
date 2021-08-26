@@ -197,11 +197,12 @@ header {
 footer {
     background-color: #e4e4e2;
 }
+
 #footer-container {
     height: 75px;
     font-size: small;
     margin: 0 10%;
-    padding:5px 0 5px;
+    padding: 5px 0 5px;
 }
 
 #footer-container ul {
@@ -223,7 +224,7 @@ footer {
 
 .social-media-links a:hover {
     font-size: medium;
-} 
+}
 
 footer i {
     font-size: small;
@@ -243,7 +244,7 @@ footer i {
 .contacts {
     list-style-type: none;
     border-left: solid 1px #001414;
-    text-align: right;  
+    text-align: right;
 }
 
 /*.contacts li {
@@ -282,9 +283,9 @@ input:focus {
 }
 
 .half-row {
-   display: inline-block;
-   width: 48%;
-   padding: 0 3px;
+    display: inline-block;
+    width: 48%;
+    padding: 0 3px;
 }
 
 .half-row input {
@@ -301,7 +302,8 @@ input:focus {
     margin-top: 1px;
 }*/
 
-#e-mail, textarea {
+#e-mail,
+textarea {
     width: 533px;
 }
 
@@ -333,6 +335,7 @@ textarea {
     left: 20px;
     bottom: 10px;
 }
+
 /* Media queries*/
 
 /* For screen ratios up to 1:1 */
@@ -380,7 +383,7 @@ textarea {
     }
 }
 
-/* For screen width < 845px */
+/* For screen width < 845px and height > 640px*/
 
 @media screen and (min-height: 640px) and (max-width: 845px) {
     #cover-logo {
@@ -448,9 +451,24 @@ textarea {
         margin: 0 auto;
         display: block;
     }
+
+    /* Footer */
+
+    #footer-container {
+        margin: 0 3%;
+    }
+
+    #footer-container .social-media-links,
+    #footer-container .contacts {
+        width: 38%;
+    }
+
+    #footer-container .footer-center {
+        width: 22%;
+    }
 }
 
-/* For screen width < 845px and height < 640px*/ 
+/* For screen width < 845px and height < 640px*/
 
 @media screen and (max-height: 640px) and (max-width: 845px) {
     #hero-outer {
@@ -539,14 +557,14 @@ textarea {
     #footer-container .social-media-links,
     #footer-container .contacts {
         width: 38%;
-    } 
-    
+    }
+
     #footer-container .footer-center {
         width: 22%;
-    } 
+    }
 }
 
-/* For screen width < 480px */ 
+/* For screen width < 480px */
 
 @media screen and (max-width: 480px) {
 
@@ -634,31 +652,31 @@ textarea {
     }
 
     /* Footer */
-#footer-container {
-    font-size: x-small;
-    margin: 0 2%;
-}
+    #footer-container {
+        font-size: x-small;
+        margin: 0 2%;
+    }
 
-#facebook,
-#instagram,
-#twitter {
-    display: none;
-}
+    #facebook,
+    #instagram,
+    #twitter {
+        display: none;
+    }
 
-#footer-container .social-media-links {
-    width: 10%;
-    border-right: none;
-} 
+    #footer-container .social-media-links {
+        width: 10%;
+        border-right: none;
+    }
 
-#footer-container .footer-center {
-    width: 28%;
-    border-right: none;
-} 
+    #footer-container .footer-center {
+        width: 28%;
+        border-right: none;
+    }
 
-#footer-container .contacts {
-    width: 59%;
-    border-left: none;
+    #footer-container .contacts {
+        width: 59%;
+        border-left: none;
 
-}
+    }
 
 }
