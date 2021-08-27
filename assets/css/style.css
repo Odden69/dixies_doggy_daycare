@@ -253,6 +253,12 @@ footer i {
 
 /* Application form*/
 
+
+#app-form-container {
+    width: 570px;
+    margin: 0 auto;
+}
+
 #apply {
     padding: 0 0 8px 2px;
 }
