@@ -102,27 +102,16 @@ header {
 /* Hero image and logo*/
 
 #hero-outer {
-    /*height: 600px;
-    width: 100%;*/
     position: relative;
-    background: url('../images/hero_image.jpg') no-repeat center center fixed;
-    background-color: #e4e4e2;
+    background: url('../images/hero_image.jpg') no-repeat fixed #e4e4e2;
     flex-grow: 1;
-    background-position-x: 70%;
     background-position-y: 25%;
     background-size: 100%;
 }
 
-/* #hero-image {
-    height: 650px;
-    width: 100%;
-    background-size: cover;
-} */
-
 #cover-logo {
     width: 300px;
     height: 200px;
-    /* background-color: rgba(224, 184, 192, 0.7); */
     left: 5%;
     top: 50px;
     position: absolute;
@@ -382,9 +371,7 @@ textarea {
         height: 600px;
         width: 100%;
         position: relative;
-        background: url('../images/hero_image.jpg') no-repeat center center;
-        /*flex-grow: 1;*/
-        background-position-x: 70%;
+        background: url('../images/hero_image.jpg') no-repeat #e4e4e2;
         background-position-y: 25%;
         background-size: 100%;
     }
@@ -482,8 +469,7 @@ textarea {
         height: 530px;
         width: 100%;
         position: relative;
-        background: url(../images/hero_image_2.jpg) no-repeat;
-        /* flex-grow: 1; */
+        background: url(../images/hero_image_2.jpg) no-repeat #e4e4e2;
         background-position-x: 4%;
         background-position-y: top;
         background-size: 118%;
@@ -586,7 +572,7 @@ textarea {
         height: 523px;
         width: 100%;
         position: relative;
-        background: url(../images/hero_image.jpg) no-repeat;
+        background: url(../images/hero_image.jpg) no-repeat #e4e4e2;
         background-position-x: left;
         background-position-y: top;
         background-size: 132%;
