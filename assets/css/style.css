@@ -249,13 +249,13 @@ margin: 0 auto;
 
 #appl-logo a {
     font-family: Pacifico;
-    font-size: 600%;
+    font-size: 550%;
     font-weight: bold;
     text-decoration: none;
 }
 
 #app-form-container {
-    width: 570px;
+    width: 480px;
     margin: 0 auto;
 }
 
@@ -265,9 +265,9 @@ margin: 0 auto;
 
 #app-form {
     height: 570px;
-    width: 550px;
+    width: 475px;
     background-color: rgb(224, 184, 192);
-    padding: 10px;
+    padding: 14px 10px 10px 10px;
     position: relative;
 }
 
@@ -278,20 +278,24 @@ margin: 0 auto;
 input {
     font-family: Roboto;
     font-size: medium;
-    padding: 0 10px;
     border-radius: 2px;
     margin-top: 3px;
     line-height: 30px;
+    box-sizing: border-box;
+    padding-left: 3px;
 }
 
 input:focus {
     border: #984152 2px;
 }
 
+.right {
+    float: right;
+}
+
 .half-row {
     display: inline-block;
-    width: 48%;
-    padding: 0 3px;
+    width: 49%;
 }
 
 .half-row input {
@@ -300,17 +304,17 @@ input:focus {
 
 .third-row {
     display: inline-block;
-    padding: 0;
-    margin: 0 6px 0 3px;
+    width: 39%;
 }
 
-/*#year-month {
+#year-month {
     margin-top: 1px;
-}*/
+    margin-left: 3px;
+}
 
 #e-mail,
 textarea {
-    width: 533px;
+    width: 100%;
 }
 
 select,
@@ -320,6 +324,8 @@ textarea {
     font-size: medium;
     padding: 0 10px;
     margin-top: 3px;
+    resize: none;
+    box-sizing: border-box;
 }
 
 select {
