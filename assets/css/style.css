@@ -7,7 +7,7 @@
     border: none;
 }
 
-body {
+body, #apply-here body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -243,6 +243,16 @@ footer i {
 
 /* Application form*/
 
+#appl-logo {
+margin: 0 auto;
+}
+
+#appl-logo a {
+    font-family: Pacifico;
+    font-size: 600%;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 #app-form-container {
     width: 570px;
