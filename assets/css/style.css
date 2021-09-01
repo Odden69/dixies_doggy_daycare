@@ -93,6 +93,7 @@ header {
     background: #984152;
     color: white;
     border-radius: 3px;
+    padding: 0 7px;
 }
 
 .button-container {
@@ -264,7 +265,7 @@ margin: 0 auto;
 }
 
 #app-form {
-    height: 570px;
+    height: 532px;
     width: 475px;
     background-color: rgb(224, 184, 192);
     padding: 14px 10px 10px 10px;
