@@ -261,8 +261,8 @@ height: 160px;
 }
 
 #app-form-container {
-    width: 480px;
-    margin: 0 auto;
+    width: 496px;
+    margin: 30px auto;
 }
 
 #apply {
@@ -700,4 +700,44 @@ textarea {
 
     }
 
+    /* Application form*/
+    #appl-logo {
+        height: 115px;
+        }
+        
+        #appl-logo a {
+            font-size: 450%;
+        }
+        
+        #appl-logo a:hover {
+            font-size: 500%;
+        }
+        
+        #app-form-container {
+            width: 90vw;
+        }
+        
+        #apply {
+            padding: 0 0 8px 2px;
+        }
+        
+        #app-form {
+            height: 763px;
+            width: 90%;
+            margin: 0 auto;
+        }
+        
+        .right {
+            float: none;
+        }
+        
+        .half-row {
+            display: inline-block;
+            width: 98%;
+        }
+        
+        .third-row {
+            display: inline-block;
+            width: 90%;
+        }
 }
