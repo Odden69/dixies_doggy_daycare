@@ -244,10 +244,14 @@ footer i {
 
 /* Application form*/
 
+#apply-here-container {
+    margin: auto 0;
+}
+
 #appl-logo {
 margin: 0 auto;
 height: 160px;
-width: 256px;
+width: fit-content;
 }
 
 #appl-logo a {
@@ -710,7 +714,6 @@ textarea {
     /* Application form*/
     #appl-logo {
         height: 115px;
-        width: 210px;
         }
         
         #appl-logo a {
