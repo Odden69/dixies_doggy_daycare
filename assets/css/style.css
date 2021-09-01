@@ -246,6 +246,7 @@ footer i {
 
 #appl-logo {
 margin: 0 auto;
+height: 160px;
 }
 
 #appl-logo a {
@@ -253,6 +254,10 @@ margin: 0 auto;
     font-size: 550%;
     font-weight: bold;
     text-decoration: none;
+}
+
+#appl-logo a:hover {
+    font-size: 600%;
 }
 
 #app-form-container {
@@ -347,6 +352,10 @@ textarea {
     position: absolute;
     left: 20px;
     bottom: 10px;
+}
+#app-form .button:hover {
+    padding: 2px 12px;
+    font-size: 110%;
 }
 
 /* Media queries*/
