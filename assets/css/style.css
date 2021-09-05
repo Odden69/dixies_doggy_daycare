@@ -7,7 +7,8 @@
     border: none;
 }
 
-body, #apply-here body {
+body,
+#apply-here body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -285,19 +286,18 @@ footer i {
     position: relative;
 }
 
-.right .about-text {
+.about-text {
     width: 75%;
     height: auto;
     position: absolute;
     top: 25%;
+}
+
+.right .about-text {
     left: 0;
 }
 
 .left .about-text {
-    width: 75%;
-    height: auto;
-    position: absolute;
-    top: 25%;
     right: 0;
     text-align: right;
 }
@@ -783,6 +783,30 @@ textarea {
         border-left: none;
 
     }
+}
+
+/* For screen width < 850px */
+
+@media screen and (max-width: 850px) {
+
+    /* About us */
+    .about {
+        font-size: medium;
+    }
+
+    .center-text {
+        width: 85%;
+    }
+
+    .about-text {
+        width: 85%;
+        top: 10%;
+    }
+
+    #opening-hours {
+        width: 335px;
+    }
+
 }
 
 /* For screen width < 530px */
