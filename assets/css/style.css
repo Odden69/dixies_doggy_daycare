@@ -315,12 +315,13 @@ footer i {
     height: auto;
     background-color: rgb(224, 184, 192);
     margin: 30px auto;
-    padding: 10px
+    padding: 10px;
 }
 
 #group-img {
     width: 100%;
     height: auto;
+    display: block;
 }
 
 /* Application form*/
@@ -788,6 +789,30 @@ textarea {
 /* For screen width < 850px */
 
 @media screen and (max-width: 850px) {
+
+    /* About us */
+    .about {
+        font-size: medium;
+    }
+
+    .center-text {
+        width: 85%;
+    }
+
+    .about-text {
+        width: 85%;
+        top: 10%;
+    }
+
+    #opening-hours {
+        width: 335px;
+    }
+
+}
+
+/* For screen width < 555px */
+
+@media screen and (max-width: 555px) {
 
     /* About us */
     .about {
