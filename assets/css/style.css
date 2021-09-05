@@ -324,6 +324,30 @@ footer i {
     display: block;
 }
 
+/* Code for Back to top button */
+/* This snippet of code was copied as a whole from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgba(224, 184, 192, 0.6);
+    color: rgba(0, 20, 20, 0.6);
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #984152;
+    color: white;
+  }
+
 /* Application form*/
 
 #apply-here-container {
