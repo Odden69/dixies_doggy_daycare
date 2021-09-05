@@ -28,6 +28,14 @@ body, #apply-here body {
     font-family: Pacifico;
 }
 
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
 /* Header */
 header {
     background-color: #e4e4e2;
@@ -242,6 +250,99 @@ footer i {
     text-align: left;
 }*/
 
+/* About us */
+
+#about {
+    font-size: large;
+    line-height: 1.5;
+}
+
+#about .right {
+    clear: right;
+}
+
+#about .left {
+    clear: left;
+}
+
+
+.center-text {
+    width: 75%;
+    margin: 35px auto;
+    clear: both;
+}
+
+.about-img {
+    width: 35%;
+    height: auto;
+    margin: 10px;
+}
+
+.about-text-container {
+    width: 44%;
+    margin: 10px 10px;
+    padding-top: 36%;
+    position: relative;
+}
+
+.right .about-text {
+    width: 75%;
+    height: auto;
+    position: absolute;
+    top: 25%;
+    left: 0; 
+}
+.left .about-text {
+    width: 75%;
+    height: auto;
+    position: absolute;
+    top: 25%;
+    right: 0;
+    text-align: right;
+    }
+
+.left.about-img {
+    margin-left: 8%;
+    }
+
+.right.about-img {
+    margin-right: 8%;
+}    
+
+
+
+ /* #about .right,
+ #about .left {
+     width: 48%;
+     margin: 10px 10px;
+     padding-top: 48%;
+     position: relative;
+     background-color: red;
+ }
+
+ .about-text {
+     width: 50%;
+     height: 50%;
+     position: absolute;
+     top: 25%;
+     left: 25%;
+     bottom: 0;
+     right: 0; 
+ }
+ .about-img {
+     position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     object-fit: scale-down;
+ } 
+ */
+ #group-img {
+     width: 100%;
+     height: auto;
+ }
+
 /* Application form*/
 
 #apply-here-container {
@@ -299,10 +400,6 @@ input {
 
 input:focus {
     border: #984152 2px;
-}
-
-.right {
-    float: right;
 }
 
 .half-row {
