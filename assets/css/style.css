@@ -810,29 +810,6 @@ textarea {
 
 }
 
-/* For screen width < 555px */
-
-@media screen and (max-width: 555px) {
-
-    /* About us */
-    .about {
-        font-size: medium;
-    }
-
-    .center-text {
-        width: 85%;
-    }
-
-    .about-text {
-        width: 85%;
-        top: 10%;
-    }
-
-    #opening-hours {
-        width: 335px;
-    }
-
-}
 
 /* For screen width < 530px */
 
