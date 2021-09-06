@@ -839,6 +839,53 @@ textarea {
 
 }
 
+/* For screen width < 565px */
+
+@media screen and (max-width: 565px) {
+
+    /* About us */
+    .about {
+        font-size: medium;
+    }
+
+    .center-text {
+        width: 85%;
+        margin: 35px auto;
+    }
+
+    .about-text-container-1,
+    .about-text-container-2 {
+        width: 85%;
+        margin: 15px auto;
+        height: fit-content;
+    }
+
+    .about-text-container-1,
+    .about-text-container-2,
+    .about-img-1,
+    .about-img-2 {
+        float: none;
+    }
+
+    .about-img-1,
+    .about-img-2 {
+        width: 60%;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .about-text.small-screen {
+        width: 100%;
+        top: 10%;
+        text-align: left;
+    }
+
+    #opening-hours {
+        width: 220px;
+    }
+
+}
+
 
 /* For screen width < 530px */
 
