@@ -258,28 +258,33 @@ footer i {
     line-height: 1.5;
 }
 
-.about .right {
-    clear: right;
-}
-
-.about .left {
-    clear: left;
-}
-
-
 .center-text {
     width: 75%;
-    margin: 35px auto;
+    margin: 60px auto;
     clear: both;
 }
 
-.about-img {
+.about-text-container-1,
+.about-img-2 {
+    float: left;
+    clear: left;
+}
+
+.about-text-container-2,
+.about-img-1 {
+    float: right;
+    clear: right;
+}
+
+.about-img-1,
+.about-img-2 {
     width: 35%;
     height: auto;
     margin: 10px;
 }
 
-.about-text-container {
+.about-text-container-1,
+.about-text-container-2 {
     width: 44%;
     margin: 10px 10px;
     padding-top: 36%;
@@ -293,20 +298,20 @@ footer i {
     top: 25%;
 }
 
-.right .about-text {
-    left: 0;
-}
-
-.left .about-text {
+.about-text-container-1 .about-text {
     right: 0;
     text-align: right;
 }
 
-.left.about-img {
+.about-text-container-2 .about-text {
+    left: 0;
+}
+
+.about-img-2 {
     margin-left: 8%;
 }
 
-.right.about-img {
+.about-img-1 {
     margin-right: 8%;
 }
 
