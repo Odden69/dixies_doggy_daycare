@@ -866,6 +866,8 @@ textarea {
         width: 85%;
         margin: 15px auto;
         height: fit-content;
+        position: static;
+        padding-top: 0;
     }
 
     .about-text-container-1,
@@ -886,6 +888,7 @@ textarea {
         width: 100%;
         top: 10%;
         text-align: left;
+        position: static;
     }
 
     #opening-hours {
