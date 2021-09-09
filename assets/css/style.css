@@ -107,6 +107,8 @@ header {
     color: white;
     border-radius: 3px;
     padding: 0 7px;
+    display: block;
+    margin: 0 auto;
 }
 
 .button-container {
