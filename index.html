@@ -31,7 +31,29 @@
             </ul>
             <div></div>
         </nav>
-        <div class="change-schedule"><i class="far fa-calendar-times"></i><span class="cs-text">Change my schedule</span></div>
+        <div class="change-schedule" onclick="openForm()"><i class="far fa-calendar-times"></i><span
+                class="cs-text">Change my schedule</span></div>
+        <!-- The snippet of code for the popup form was copied from https://www.w3schools.com/howto/howto_js_popup_form.asp-->        
+        <div class="form-popup" id="myForm">
+            <form action="" class="form-container">
+                <label for="cs-dogs-name">Dog's name:</label>
+                <input type="text" name="cs-dogs-name" required>
+                <label for="cs-date">Date for schedule change:</label>
+                <input type="date" name="cs-date" required>
+                <label for="cs-text">New schedule for the date:</label>
+                <input type="text" name="cs-text" required>
+                <button type="submit" class="button" onclick="closeForm(); openCsThanks();">Submit</button>
+                <button type="button" class="cancel" onclick="closeForm()" value="">
+                    <i class="fas fa-times"></i>
+                </button>
+            </form>
+        </div>
+        <div class="form-thanks" id="csThanks">
+            <b>Thank you for using our web tool to change your schedule.</b>
+            <button type="button" class="cancel" onclick="closeCsThanks()" value="">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
     </header>
     <section id="hero-outer">
         <div id="cover-logo">
@@ -80,6 +102,27 @@
             </ul>
         </div>
     </footer>
+
+    <!-- Script for popup form -->
+    <!-- The snippet of code for the popup form was copied from https://www.w3schools.com/howto/howto_js_popup_form.asp-->
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+
+        function openCsThanks() {
+            document.getElementById("csThanks").style.display = "block";
+        }
+
+        function closeCsThanks() {
+            document.getElementById("csThanks").style.display = "none";
+        }
+    </script>
+
     <!-- font awsome script -->
     <script src="https://kit.fontawesome.com/d8621bf8e1.js" crossorigin="anonymous"></script>
 </body>
