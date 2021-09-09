@@ -115,6 +115,72 @@ header {
     text-align: center;
 }
 
+ /* Styling of the popup form */
+ /* This snippet of code was copied from https://www.w3schools.com/howto/howto_js_popup_form.asp */
+ .form-popup,
+ .form-thanks {
+   display: none;
+   position: absolute;
+   top: 15px;
+   right: 15px;
+   z-index: 9;
+   background-color: rgb(224, 184, 192);
+ }
+ 
+ .form-thanks {
+     height: 75px;
+     width: 250px;
+     padding: 40px 35px;
+ }
+ 
+ .form-container {
+   max-width: 300px;
+   padding: 10px;
+   background-color: rgb(224, 184, 192);
+ }
+ 
+ .form-container input[type=text] {
+   width: 100%;
+   margin: 5px 0 22px 0;
+   border: none;
+ }
+
+ .form-container input[type=date] {
+   margin: 5px 120px 22px 0;
+   border: none;
+ }
+ 
+ /* When the inputs get focus, do something */
+ /*.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+   outline: solid 2px;
+   outline-color: #984152;*/
+ 
+ .form-container .button {
+   font-family: Roboto;
+   font-size: medium;
+   margin: 3px auto;
+   line-height: 30px;
+   box-sizing: border-box
+ }
+ 
+ .cancel {
+   background-color: inherit;
+   font-size: 18px;
+   position: absolute;
+   top: 5px;
+   right: 10px;
+   opacity: 0.7;
+   cursor: pointer;
+ }
+
+ .form-container label {
+     margin-bottom: 10px;
+ }
+
+ .cancel:hover {
+     font-size: 22px;
+ }
+
 /* Hero image and logo*/
 
 #hero-outer {
