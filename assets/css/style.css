@@ -129,8 +129,8 @@ header {
  
  .form-thanks {
      height: 75px;
-     width: 250px;
-     padding: 40px 35px;
+     width: 180px;
+     padding: 25px 20px;
  }
  
  .form-container {
@@ -149,11 +149,6 @@ header {
    margin: 5px 120px 22px 0;
    border: none;
  }
- 
- /* When the inputs get focus, do something */
- /*.form-container input[type=text]:focus, .form-container input[type=password]:focus {
-   outline: solid 2px;
-   outline-color: #984152;*/
  
  .form-container .button {
    font-family: Roboto;
