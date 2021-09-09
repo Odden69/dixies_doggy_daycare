@@ -111,8 +111,9 @@ header {
     margin: 0 auto;
 }
 
-.button-container {
-    text-align: center;
+.button:hover {
+    padding: 2px 12px;
+    font-size: 110%;
 }
 
  /* Styling of the popup form */
@@ -135,6 +136,7 @@ header {
  
  .form-container {
    max-width: 300px;
+   height: 270px;
    padding: 10px;
    background-color: rgb(224, 184, 192);
  }
@@ -532,11 +534,6 @@ textarea {
     position: absolute;
     left: 20px;
     bottom: 10px;
-}
-
-#app-form .button:hover {
-    padding: 2px 12px;
-    font-size: 110%;
 }
 
 /* Media queries*/
