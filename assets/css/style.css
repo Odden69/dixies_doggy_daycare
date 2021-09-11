@@ -839,12 +839,8 @@ textarea {
 @media screen and (max-width: 565px) {
 
     /* About us */
-    .about {
-        font-size: medium;
-    }
 
     .center-text {
-        width: 85%;
         margin: 35px auto;
     }
 
@@ -873,7 +869,6 @@ textarea {
 
     .about-text.small-screen {
         width: 100%;
-        top: 10%;
         text-align: left;
         position: static;
     }
