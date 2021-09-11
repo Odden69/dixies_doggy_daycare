@@ -727,7 +727,6 @@ textarea {
     #hero-outer {
         height: 523px;
         width: 100%;
-        position: relative;
         background: url(../images/hero_image_3.jpg) no-repeat #e4e4e2;
         background-position-x: left;
         background-position-y: top;
@@ -737,15 +736,11 @@ textarea {
     #cover-logo {
         width: 200px;
         height: 125px;
-        left: 5%;
         top: 8px;
-        position: absolute;
     }
 
     #main-logo {
-        font-family: Pacifico;
         font-size: 350%;
-        height: 87px;
         margin-bottom: -5px;
     }
 
@@ -762,43 +757,29 @@ textarea {
     .cover-text {
         width: 160px;
         height: 95px;
-        background-color: rgba(224, 184, 192, 0.8);
-        left: 3%;
         top: 267px;
         padding: 10px;
-        position: absolute;
     }
 
     .cover-text>h2 {
         font-size: 80%;
-        margin-bottom: 15px;
-        line-height: 1.5;
     }
 
     #whats-up {
         width: 150px;
         height: 85px;
-        background-color: rgba(224, 184, 192, 0.8);
-        right: 5%;
         top: 390px;
-        padding: 12px;
-        position: absolute;
     }
 
     #whats-up>h2 {
         font-size: 85%;
-        margin-bottom: 10px;
     }
 
     #whats-up>h3 {
         font-size: 75%;
-        margin-bottom: 5px;
     }
 
     #whats-up>button {
-        padding: 6px;
-        margin: 0 auto;
-        display: block;
         font-size: 75%;
     }
 
@@ -826,7 +807,6 @@ textarea {
     #footer-container .contacts {
         width: 59%;
         border-left: none;
-
     }
 }
 
