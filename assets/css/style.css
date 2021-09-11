@@ -579,16 +579,7 @@ textarea {
 /* For screen width < 845px and height > 640px*/
 
 @media screen and (min-height: 640px) and (max-width: 845px) {
-    #cover-logo {
-        width: 300px;
-        height: 200px;
-        left: 5%;
-        top: 50px;
-        position: absolute;
-    }
-
     #main-logo {
-        font-family: Pacifico;
         font-size: 400%;
         height: 87px;
     }
@@ -606,43 +597,29 @@ textarea {
     .cover-text {
         width: 200px;
         height: 110px;
-        background-color: rgba(224, 184, 192, 0.8);
         left: 3%;
         top: 60%;
         padding: 12px;
-        position: absolute;
     }
 
     .cover-text>h2 {
         font-size: 100%;
-        margin-bottom: 15px;
-        line-height: 1.5;
     }
 
     #whats-up {
         width: 175px;
         height: 100px;
-        background-color: rgba(224, 184, 192, 0.8);
         right: 5%;
         top: 70%;
         padding: 12px;
-        position: absolute;
     }
 
     #whats-up>h2 {
         font-size: 95%;
-        margin-bottom: 10px;
     }
 
     #whats-up>h3 {
         font-size: 85%;
-        margin-bottom: 5px;
-    }
-
-    #whats-up>button {
-        padding: 6px;
-        margin: 0 auto;
-        display: block;
     }
 
     /* Footer */
