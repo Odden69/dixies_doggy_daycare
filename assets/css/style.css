@@ -47,8 +47,8 @@ header {
 #logo-top {
     font-family: Pacifico, sans-serif;
     float: left;
-    font-size: 150%;
-    margin: 4px 0 5px 11px;
+    font-size: 180%;
+    margin: 0 0 -1px 13px;
 }
 
 /* Navigation links */
@@ -300,6 +300,11 @@ footer {
 footer i {
     font-size: small;
     padding-right: 10px;
+    margin: 4px 0;
+}
+
+.contacts li {
+    margin: 2px 0;
 }
 
 .footer-center {
