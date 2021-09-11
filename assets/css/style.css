@@ -901,10 +901,6 @@ textarea {
         width: 90vw;
     }
 
-    #apply {
-        padding: 0 0 8px 2px;
-    }
-
     #app-form {
         height: 763px;
         width: 95%;
@@ -916,12 +912,10 @@ textarea {
     }
 
     .half-row {
-        display: inline-block;
         width: 98%;
     }
 
     .third-row {
-        display: inline-block;
         width: 90%;
     }
 }
