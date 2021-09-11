@@ -556,35 +556,21 @@ textarea {
     }
 }*/
 
-/* For screen height max 750px */
+/* For screen height max 750px and screen width min 845px */
 
 @media screen and (max-height: 750px) and (min-width: 845px) {
     .cover-text {
-        width: 300px;
-        height: 150px;
-        background-color: rgba(224, 184, 192, 0.8);
-        left: 5%;
         top: 370px;
-        padding: 25px;
-        position: absolute;
     }
 
     body {
-        min-height: 100vh;
         display: block;
-        /*flex-direction: column;*/
-        max-width: 1366px;
-        margin: 0 auto;
-        font-family: Roboto, sans-serif;
     }
 
     #hero-outer {
         height: 600px;
         width: 100%;
-        position: relative;
         background: url('../images/hero_image.jpg') no-repeat #e4e4e2;
-        background-position-y: 25%;
-        background-size: 100%;
     }
 }
 
