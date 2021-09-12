@@ -39,15 +39,15 @@
         <div class="change-schedule" onclick="openForm()"><i class="far fa-calendar-times logo-color"></i><span
                 class="cs-text">Change my schedule</span></div>
         <div class="form-popup" id="myForm">
-            <form action="" class="form-container">
+            <form action="javascript:closeForm(); openCsThanks();" class="form-container">
                 <label for="cs-dogs-name">Dog's name:</label>
                 <input id="cs-dogs-name" type="text" name="cs-dogs-name" required>
                 <label for="cs-date">Date for schedule change:</label>
                 <input id="cs-date" type="date" name="cs-date" required>
                 <label for="cs-text">New schedule for the date:</label>
                 <input id="cs-text" type="text" name="cs-text" required>
-                <button type="submit" class="button" onclick="closeForm(); openCsThanks();">Submit</button>
-                <button type="button" class="cancel" onclick="closeForm()" value="">
+                <button type="submit" class="button">Submit</button>
+                <button type="button" class="cancel" onclick="closeForm();" value="">
                     <i class="fas fa-times"></i>
                 </button>
             </form>
