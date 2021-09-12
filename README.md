@@ -28,8 +28,7 @@ This feature meets a daycare centre customer's need to be able to easily make ch
 
 This feature also benefits the owner who doesn't have to guard the phone in the mornings but instead allowing her to spend time with the dogs present.
 
-When the form has been filled out another note pops up which says "Thank you for using ... to confirm the submission.
-(Since this page is of educational purpose only, the data from the form is not used and the function of the form is not completely as it would have been on a live web site.)
+When the form has been filled out another note pops up which says "Thank you for using our web tool to change your schedule." to confirm the submission.
 
 ### About Us Page
 The about us page contains a description of the daycare centre which goal is to ensure the reader of the centres qualities. It's intention is to give the reader a feeling that this small-scale daycare centre is flexible and competent and therefore capable of meeting every dog's needs.
