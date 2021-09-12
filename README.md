@@ -29,6 +29,7 @@ This feature meets a daycare centre customer's need to be able to easily make ch
 This feature also benefits the owner who doesn't have to guard the phone in the mornings but instead allowing her to spend time with the dogs present.
 
 When the form has been filled out another note pops up which says "Thank you for using ... to confirm the submission.
+(Since this page is of educational purpose only, the data from the form is not used and the function of the form is not completely as it would have been on a live web site.)
 
 ### About Us Page
 The about us page contains a description of the daycare centre which goal is to ensure the reader of the centres qualities. It's intention is to give the reader a feeling that this small-scale daycare centre is flexible and competent and therefore capable of meeting every dog's needs.
@@ -40,7 +41,7 @@ The about us page gives the owner an opportunity to show the daycare centres cap
 ### Apply Here Page
 On the apply here page an interested dog owner can fill out a form to make a preliminary application to the daycare center. The form contains relevant information to the daycare owner and is a base for the discussions in a future contact. Some of the fields are required and some are not where the required ones are marked with an asterix.
 
-When the form has been filled out the user is sent to a thank you page described in the nest chapter.
+When the form has been filled out the user is sent to a thank you page described in the next chapter.
 
 The big logo provides a link back to the home page.
 
