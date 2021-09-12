@@ -44,7 +44,6 @@ header {
 }
 
 /* Navigation links */
-
 #menu,
 header {
     clear: both;
@@ -112,6 +111,7 @@ header {
 
  /* Styling of the popup form */
  /* This snippet of code was copied from https://www.w3schools.com/howto/howto_js_popup_form.asp */
+ /* a bit adjusted to apply */
  .form-popup,
  .form-thanks {
    display: none;
@@ -171,9 +171,9 @@ header {
  .cancel:hover {
      font-size: 22px;
  }
+ /* End of popup form */
 
-/* Hero image and logo*/
-
+/* Hero image and logo */
 #hero-outer {
     position: relative;
     background: url('../images/hero_image.jpg') no-repeat fixed #e4e4e2;
@@ -207,7 +207,6 @@ header {
 }
 
 /* Cover text */
-
 .cover-text {
     width: 300px;
     height: 150px;
@@ -240,7 +239,6 @@ header {
 }
 
 #whats-up>h3 {
-    /* font-size: 100%; */
     margin-bottom: 5px;
 }
 
@@ -256,7 +254,6 @@ header {
 }
 
 /* Footer */
-
 footer {
     background-color: #e4e4e2;
 }
@@ -320,7 +317,6 @@ footer i {
 }*/
 
 /* About us */
-
 .about {
     font-size: large;
     line-height: 1.5;
@@ -399,7 +395,6 @@ footer i {
 
 /* Code for Back to top button */
 /* This snippet of code was copied as a whole from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
-
 #myBtn {
     display: none;
     position: fixed;
@@ -420,9 +415,9 @@ footer i {
     background-color: #984152;
     color: white;
   }
+  /* En of code for Back to top button */
 
 /* Application form*/
-
 #apply-here-container {
     margin: auto 0;
 }
@@ -541,19 +536,7 @@ textarea {
 
 /* Media queries*/
 
-/* For screen ratios up to 1:1 */
-
-/*@media screen and () {
-    #hero-image {
-        height: 650px;
-        width: 100%;
-        background: url('../images/hero_image_2.jpg') no-repeat center top;
-        background-size: cover;
-    }
-}*/
-
 /* For screen height max 750px and screen width min 845px */
-
 @media screen and (max-height: 750px) and (min-width: 845px) {
     .cover-text {
         top: 370px;
@@ -573,7 +556,6 @@ textarea {
 }
 
 /* For screen width < 845px and height > 640px*/
-
 @media screen and (min-height: 640px) and (max-width: 845px) {
     #main-logo {
         font-size: 400%;
@@ -635,7 +617,6 @@ textarea {
 }
 
 /* For screen width < 845px and height < 640px*/
-
 @media screen and (max-height: 640px) and (max-width: 845px) {
     #hero-outer {
         height: 530px;
@@ -690,7 +671,6 @@ textarea {
     }
 
     /* Footer */
-
     #footer-container {
         margin: 0 3%;
     }
@@ -706,7 +686,6 @@ textarea {
 }
 
 /* For screen width < 480px */
-
 @media screen and (max-width: 480px) {
 
     .change-schedule {
@@ -807,7 +786,6 @@ textarea {
 }
 
 /* For screen width < 850px */
-
 @media screen and (max-width: 850px) {
 
     /* About us */
@@ -831,11 +809,9 @@ textarea {
 }
 
 /* For screen width < 565px */
-
 @media screen and (max-width: 565px) {
 
     /* About us */
-
     .center-text {
         margin: 35px auto;
     }
@@ -877,7 +853,6 @@ textarea {
 
 
 /* For screen width < 530px */
-
 @media screen and (max-width: 530px) {
 
     /* Application form*/
