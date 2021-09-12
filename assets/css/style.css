@@ -109,69 +109,70 @@ header {
     font-size: 110%;
 }
 
- /* Styling of the popup form */
- /* This snippet of code was copied from https://www.w3schools.com/howto/howto_js_popup_form.asp */
- /* a bit adjusted to apply */
- .form-popup,
- .form-thanks {
-   display: none;
-   position: absolute;
-   top: 15px;
-   right: 15px;
-   z-index: 9;
-   background-color: rgb(224, 184, 192);
- }
- 
- .form-thanks {
-     height: 60px;
-     width: 180px;
-     padding: 25px 20px;
- }
- 
- .form-container {
-   max-width: 300px;
-   height: 270px;
-   padding: 10px;
-   background-color: rgb(224, 184, 192);
- }
- 
- .form-container input[type=text] {
-   width: 100%;
-   margin: 5px 0 22px 0;
-   border: none;
- }
+/* Styling of the popup form */
+/* This snippet of code was copied from https://www.w3schools.com/howto/howto_js_popup_form.asp */
+/* a bit adjusted to apply */
+.form-popup,
+.form-thanks {
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 9;
+    background-color: rgb(224, 184, 192);
+}
 
- .form-container input[type=date] {
-   margin: 5px 120px 22px 0;
-   border: none;
- }
- 
- .form-container .button {
-   font-family: Roboto;
-   font-size: medium;
-   margin: 3px auto;
-   line-height: 30px;
-   box-sizing: border-box
- }
- 
- .cancel {
-   background-color: inherit;
-   font-size: 18px;
-   position: absolute;
-   top: 5px;
-   right: 10px;
-   opacity: 0.7;
-   cursor: pointer;
- }
+.form-thanks {
+    height: 60px;
+    width: 180px;
+    padding: 25px 20px;
+}
 
- .form-container label {
-     margin-bottom: 10px;
- }
+.form-container {
+    max-width: 300px;
+    height: 270px;
+    padding: 10px;
+    background-color: rgb(224, 184, 192);
+}
 
- .cancel:hover {
-     font-size: 22px;
- }
- /* End of popup form */
+.form-container input[type=text] {
+    width: 100%;
+    margin: 5px 0 22px 0;
+    border: none;
+}
+
+.form-container input[type=date] {
+    margin: 5px 120px 22px 0;
+    border: none;
+}
+
+.form-container .button {
+    font-family: Roboto;
+    font-size: medium;
+    margin: 3px auto;
+    line-height: 30px;
+    box-sizing: border-box
+}
+
+.cancel {
+    background-color: inherit;
+    font-size: 18px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.form-container label {
+    margin-bottom: 10px;
+}
+
+.cancel:hover {
+    font-size: 22px;
+}
+
+/* End of popup form */
 
 /* Hero image and logo */
 #hero-outer {
@@ -312,10 +313,6 @@ footer i {
     text-align: right;
 }
 
-/*.contacts li {
-    text-align: left;
-}*/
-
 /* About us */
 .about {
     font-size: large;
@@ -409,13 +406,14 @@ footer i {
     cursor: pointer;
     padding: 6px;
     border-radius: 4px;
-  }
-  
-  #myBtn:hover {
+}
+
+#myBtn:hover {
     background-color: #984152;
     color: white;
-  }
-  /* En of code for Back to top button */
+}
+
+/* En of code for Back to top button */
 
 /* Application form*/
 #apply-here-container {
