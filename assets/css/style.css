@@ -29,14 +29,6 @@ body,
     font-family: Pacifico;
 }
 
-.right {
-    float: right;
-}
-
-.left {
-    float: left;
-}
-
 /* Header */
 header {
     background-color: #e4e4e2;
@@ -474,6 +466,10 @@ footer i {
     font-size: medium;
 }
 
+.end {
+    float: right;
+}
+
 input {
     font-family: Roboto;
     font-size: medium;
@@ -907,7 +903,7 @@ textarea {
         margin: 0 auto;
     }
 
-    .right {
+    .half-row.end {
         float: none;
     }
 
