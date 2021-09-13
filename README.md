@@ -30,9 +30,9 @@ The footer gives the owner a possibility to send the user on to other medias to 
 
 ### Change Schedule Function
 This feature meets a daycare centre customer's need to be able to easily make changes to his or her daycare schedule. When you wake up sick, the last thing you want to do is to start calling everyone who needs to know about the situation. Now there is one less call to make. Just go to the website and make a note in the form and that is taken care of.  
-![Change Schedule Button](assets/images/readme_images/cs_header.png)
-![Change Schedule Form](assets/images/readme_images/cs_form.png)  
 When the form has been filled out another note pops up to confirm the submission.  
+![Change Schedule Button](assets/images/readme_images/cs_header.png)
+![Change Schedule Form](assets/images/readme_images/cs_form.png)
 ![Change Schedule Thanks](assets/images/readme_images/cs_thanks.png)  
 
 This feature also benefits the owner who doesn't have to guard the phone in the mornings but instead allowing her to spend time with the dogs present.
@@ -42,7 +42,7 @@ The about us page contains a description of the daycare centre which goal is to 
 ![About Us Page](assets/images/readme_images/about_us.png)  
 
 On this page the reader also can find opening hours and prizes.
-The about us page gives the owner an opportunity to show the daycare centres capacity in a way that she finds relevant.
+The about us page gives the owner an opportunity to present the daycare centres capacity in a way that she finds relevant.
 
 ### Apply Here Page
 On the apply here page an interested dog owner can fill out a form to make a preliminary application to the daycare center. The form contains relevant information to the daycare owner and is a base for the discussions in a future contact. Some of the fields are required and some are not where the required ones are marked with an asterix.  
@@ -57,3 +57,5 @@ The decision to make the page look like it does, without header and footer, was 
 This page is only viewed as a result of submitting the application form on the apply here page. It gives the user a confirmation of the submission and sends a positive message from the daycare centre.  
 The thank you page has the same header and footer as the home page to let the user easily find the way back to the rest of the site. 
 ![Thank you page](assets/images/readme_images/.png)
+
+
