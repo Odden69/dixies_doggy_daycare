@@ -66,5 +66,30 @@ These are some features I would love to add to the site in the future:
 - A page or section with references from present and past customers.  
 Even further in the future there might be possible to add a more advanced communication tool where the customers have a log in and, among other things, can see posted pictures of their dog's day.
 
+## Testing
+This section can be found in a separat document: XXX
+
+## Credits
+First of all I want to thank my Mentor, Maria Hynes, who has supported me through the project with lots of valuable advice and xxx
+The Tutors at Code Institue were there when I ran my head into the wall and needed guidence.
+A really big thank you to all my fellow slackers who are always there and ready to listen and support, weather I am having a technical issue or just a need for mental support.
+I really don't want to mention anyone specific in case i miss someone but I do have to mention "Team Noiseland", the amazing team I joined the 2021 Retro Gaming Hackathon of Code Institute with. The members have taken a lot of time to review and comment the project.
+
+### Code
+A lot of inspiration to the coding was taken from "The coders coffeehouse" and "Love running" which are projects included in the course at Code Institute.
+To read more about different elements and attributes I ended up on mainly two pages: w3school and css-trick.com
+
+- The code for the Popup forms was taken from [W3schools](https://www.w3schools.com/howto/howto_js_popup_form.asp), even if I had to make quite a lot of adjustments to make it work in this case.
+- The code for the Back to Top button was taken from [W3schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) and used almost unchanged.
+- The favicon icon was generated on [Favicon](https://favicon.io/favicon-generator/).
+
+### Images
+All the images was downloaded from different open source sites.
+- The hero image: Photo by [Joséphine Menge](https://unsplash.com/@madamemenge?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/dog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- The Dalmatian puppy: [Freeimages](https://www.freeimages.com)
+- The two buddies: Photo by [Burst](href="https://stocksnap.io/author/burstshopify") on [StockSnap](href="https://stocksnap.io")
+- The two group pictures of dogs: Photo by [Blue Bird](https://www.pexels.com/sv-se/@blue-bird?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) on [Pexels](https://www.pexels.com/sv-se/foto/kvinna-djur-hund-husdjur-7210705/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- The Bernese Mountain Dog: [Unsplash](https://unsplash.com/)
+
 
 
