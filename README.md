@@ -72,6 +72,16 @@ This section can be found in a separat document: XXX
 ### Bugs left unfixed
 There are som work left to be done on the Roboto font family. Problems with the bold font gives an unfavorable look to the site when viewed on Firefox or Safari browsers. 
 
+## Deployment
+This site was deployed to GitHub pages. To deploy a site follow these steps:
+- Find the GitHub repository of the project you which to deploy.
+- Click on Settings. The button to the far right in the menu.
+- Scroll down and click on the Pages section.
+- Under Source, select main in the dropdown menu.
+- Click Save and the page will refresh automatically.
+- To confirm your deployment, text on a blue ribbon will tell you: "Your site i ready to be published at  
+https://odden69.github.io/dixies_doggy_daycare/
+
 ## Credits
 First of all I want to thank my Mentor, Maria Hynes, who has supported me through the project with lots of valuable advice and xxx
 The Tutors at Code Institue were there when I ran my head into the wall and needed guidence.
