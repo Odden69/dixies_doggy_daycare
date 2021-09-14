@@ -72,6 +72,9 @@ This section can be found in a separat document: XXX
 ### Bugs left unfixed
 There are som work left to be done on the Roboto font family. Problems with the bold font gives an unfavorable look to the site when viewed on Firefox or Safari browsers. 
 
+## The Project Development Process
+This section can be found on a separat document: [dev-process.md](dev-process.md)
+
 ## Deployment
 This site was deployed to GitHub pages. To deploy a site follow these steps:
 - Find the GitHub repository of the project you which to deploy.
