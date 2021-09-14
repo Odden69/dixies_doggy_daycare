@@ -69,6 +69,9 @@ Even further in the future there might be possible to add a more advanced commun
 ## Testing
 This section can be found in a separat document: XXX
 
+### Bugs left unfixed
+There are som work left to be done on the Roboto font family. Problems with the bold font gives an unfavorable look to the site when viewed on Firefox or Safari browsers. 
+
 ## Credits
 First of all I want to thank my Mentor, Maria Hynes, who has supported me through the project with lots of valuable advice and xxx
 The Tutors at Code Institue were there when I ran my head into the wall and needed guidence.
@@ -80,8 +83,7 @@ A lot of inspiration to the coding was taken from "The coders coffeehouse" and "
 To read more about different elements and attributes I ended up on mainly two pages: w3school and css-trick.com
 
 - The code for the Popup forms was taken from [W3schools](https://www.w3schools.com/howto/howto_js_popup_form.asp), even if I had to make quite a lot of adjustments to make it work in this case.
-- The code for the Back to Top button was taken from [W3schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) and used almost unchanged.
-- The favicon icon was generated on [Favicon](https://favicon.io/favicon-generator/).
+- The code for the Back to Top button was taken from [W3schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) and was used almost unchanged.
 
 ### Images
 All the images was downloaded from different open source sites.
@@ -90,6 +92,7 @@ All the images was downloaded from different open source sites.
 - The two buddies: Photo by [Burst](href="https://stocksnap.io/author/burstshopify") on [StockSnap](href="https://stocksnap.io")
 - The two group pictures of dogs: Photo by [Blue Bird](https://www.pexels.com/sv-se/@blue-bird?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) on [Pexels](https://www.pexels.com/sv-se/foto/kvinna-djur-hund-husdjur-7210705/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
 - The Bernese Mountain Dog: [Unsplash](https://unsplash.com/)
+- The favicon icon was generated on [Favicon](https://favicon.io/favicon-generator/).
 
 
 
