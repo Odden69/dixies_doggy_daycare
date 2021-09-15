@@ -1,6 +1,6 @@
 <h1><span style="fontfamily: Pacifico;">Dixie's</span> Doggy Daycare</h1>
 
-Dixie's Doggy Daycare is a site developt for "Dixie's", a daycare center for dogs situated in Swindon, United Kingdom. The site describes and promotes the company and provides a way of communication between daycare owner and customers. The site's goal is to attract new customers, give current customers an easy way to make temporary changes to their schedule and to give the daycare owner an opportunity to post upcoming events. A visitor at the website will find a description of the day care centre, links to the daycare's social media pages, opening hours and prizes and also the centre's adress and phone number. Interested dog owners can fill out a form to make a preliminary application for a place at the centre.<br>
+Dixie's Doggy Daycare is a site developt for "Dixie's", a daycare center for dogs living in Swindon, United Kingdom. The site describes and promotes the company and provides a way of communication between daycare owner and customers. The site's goal is to attract new customers, give current customers an easy way to make temporary changes to their schedule and to give the daycare owner an opportunity to post upcoming events. A visitor at the website will find a description of the day care centre, links to the daycare's social media pages, opening hours and prizes and also the centre's adress and phone number. Interested dog owners can fill out a form to make a preliminary application for a place at the centre.<br>
 A live link to the website: https://odden69.github.io/dixies_doggy_daycare/
 
 ![AmIResponsive](assets/images/readme_images/amiresp.png)
@@ -8,7 +8,7 @@ A live link to the website: https://odden69.github.io/dixies_doggy_daycare/
 ## Features
 ### Existing Features
 #### Navigation Bar
-The navigation bar can be found on top of each page, except for the apply here page, and is identical throuhgout the site to ensure user friendly navigation. It contains links to the Home, About us and Apply here pages and allows the user to easily navigate back and forth between the sites pages. The navigation bar is fully responsive across devises.  
+The navigation bar can be found on top of each page, except for the apply here page, and is identical throuhgout the site to ensure user friendly navigation. It contains links to the Home, About us and Apply here pages and allows the user to easily navigate back and forth between the sites pages. The navigation bar is fully responsive across devices.  
 ![Nav Bar](assets/images/readme_images/nav_bar.png)  
 The navigation bar also contains a Change Schedule Button which, when pushed, pops up a form where the customers can make temporary changes to their schedule. See a more thoroughly description below.
 
@@ -55,7 +55,7 @@ The big logo provides a link back to the home page.
 The decision to make the page look like it does, without header and footer, was based on esthetic grounds and the fact that leaving out header and footer on a sign up page is very common on the web today.
 
 #### Thank You Page
-This page is only viewed as a result of submitting the application form on the apply here page. It gives the user a confirmation of the submission and sends a positive message from the daycare centre.  
+This page is only viewed as a result of submitting the application form the apply here page. It gives the user a confirmation of the submission and sends a positive message from the daycare centre.  
 The thank you page has the same header and footer as the home page to let the user easily find the way back to the rest of the site. 
 ![Thank you page](assets/images/readme_images/.png)
 
@@ -86,16 +86,16 @@ This site was deployed to GitHub pages. To deploy a site follow these steps:
 https://odden69.github.io/dixies_doggy_daycare/
 
 ## Credits
-First of all I want to thank my Mentor, Maria Hynes, who has supported me through the project with lots of valuable advice and xxx
+First of all I want to thank my Mentor, Maria Hynes, who has supported me through the project with lots of valuable advice to encouragement.
 The Tutors at Code Institue were there when I ran my head into the wall and needed guidence.
-A really big thank you to all my fellow slackers who are always there and ready to listen and support, weather I am having a technical issue or just a need for mental support.
-I really don't want to mention anyone specific in case i miss someone but I do have to mention "Team Noiseland", the amazing team I joined the 2021 Retro Gaming Hackathon of Code Institute with. The members have taken a lot of time to review and comment the project.
+A really big thank you to all my fellow slackers who are always there and ready to listen and support, wether I am having a technical issue or just a need for mental support.
+I really don't want to mention any specific slacker, in case i miss someone, but I do have to mention "Team Noiseland", the amazing team I joined the 2021 Retro Gaming Hackathon of Code Institute with. The members have taken a lot of time to review and comment the project.
 
 ### Code
 A lot of inspiration to the coding was taken from "The coders coffeehouse" and "Love running" which are projects included in the course at Code Institute.
-To read more about different elements and attributes I ended up on mainly two pages: w3school and css-trick.com
+To read more about different elements or properties I ended up on mainly two pages: w3school and css-trick.com
 
-- The code for the Popup forms was taken from [W3schools](https://www.w3schools.com/howto/howto_js_popup_form.asp), even if I had to make quite a lot of adjustments to make it work in this case.
+- The code for the Popup forms was taken from [W3schools](https://www.w3schools.com/howto/howto_js_popup_form.asp), even if I had to make quite a lot of adjustments to make it fill my needs.
 - The code for the Back to Top button was taken from [W3schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) and was used almost unchanged.
 
 ### Images
