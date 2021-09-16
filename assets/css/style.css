@@ -509,6 +509,10 @@ input:focus {
     width: 42%;
 }
 
+#dogs-age {
+    width: 42px;
+}
+
 #year-month {
     margin-top: 1px;
     margin-left: 3px;
