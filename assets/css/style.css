@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 /*Logo font*/
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap');
 
@@ -10,8 +17,13 @@
 body,
 #apply-here body {
     min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     max-width: 1366px;
     margin: 0 auto;
     font-family: Roboto, sans-serif;
@@ -151,7 +163,8 @@ header {
     font-size: medium;
     margin: 3px auto;
     line-height: 30px;
-    box-sizing: border-box
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box
 }
 
 .cancel {
@@ -178,7 +191,9 @@ header {
 #hero-outer {
     position: relative;
     background: url('../images/hero_image.jpg') no-repeat fixed #e4e4e2;
-    flex-grow: 1;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
     background-position-y: 25%;
     background-size: 100%;
 }
@@ -423,6 +438,8 @@ footer i {
 #appl-logo {
     margin: 0 auto;
     height: 160px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
 }
 
@@ -469,7 +486,8 @@ input {
     border-radius: 2px;
     margin-top: 3px;
     line-height: 30px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     padding-left: 3px;
 }
 
@@ -509,7 +527,8 @@ textarea {
     padding: 0 10px;
     margin-top: 3px;
     resize: none;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 select {
@@ -818,6 +837,8 @@ textarea {
     .about-text-container-2 {
         width: 85%;
         margin: 15px auto;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
         height: fit-content;
         position: static;
         padding-top: 0;
