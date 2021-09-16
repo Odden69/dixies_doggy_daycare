@@ -224,7 +224,7 @@ header {
 
 /* Cover text */
 .cover-text {
-    width: 300px;
+    width: 301px;
     height: 150px;
     background-color: rgba(224, 184, 192, 0.8);
     left: 5%;
@@ -240,7 +240,7 @@ header {
 }
 
 #whats-up {
-    width: 230px;
+    width: 240px;
     height: 110px;
     background-color: rgba(224, 184, 192, 0.8);
     right: 2%;
