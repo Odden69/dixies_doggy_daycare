@@ -1,6 +1,6 @@
 # The Validation Process
 ## CSS
-No errors were found when running the style.css file through the test on jigsaw.w3.org.
+No errors were found when running the style.css file through the test on jigsaw.w3.org.  
 ![Test result css](assets/images/readme_images/no_error_css.png)
 
 ## HTML
@@ -37,7 +37,7 @@ The first attempt of validating the apply-here.html file gave these errors:
   This worked as far as solving the error, but it gave an input field that didn't look very good in the browser.  
   ![Apply form with size attribute](assets/images/readme_images/apply_form_w_size_attr.png)
   - Ok, what do I do? I had to google "consider adding a placeholder option label" and found this page: [w3docs.com](https://www.w3docs.com/snippets/css/how-to-create-a-placeholder-for-an-html5-select-box-by-using-only-html-and-css.html)  
-  With this help I tried to add placeholders on each select option.  
+  With this help I tried adding placeholders on each select option.  
   ![Apply-here file error fix](assets/images/readme_images/error_apply_fix_4.png)  
   Finally the errors were solved and the form looked good.  
   ![Apply form with placeholder option](assets/images/readme_images/apply_form_w_placeholder.png)  
@@ -45,4 +45,17 @@ The first attempt of validating the apply-here.html file gave these errors:
 ### thank-you.html
 No errors were found when running the thank-you.html file through the test on validator.w3.org.
 
+## Lighthouse check
+I was pretty happy with the lighthouse check on desktop:  
+![Lighthouse check on desktop](assets/images/readme_images/lighthouse_desktop.png) 
 
+The first lighthouse check on the mobile device was not as good:  
+![Lighthouse check on mobile](assets/images/readme_images/lighthouse_mobile.png)  
+But after changing the size of the hero image, and compressing it again,  
+![Compressing hero image](assets/images/readme_images/comp_hero_img.png)  
+the result was much better:  
+![Lighthouse check on mobile](assets/images/readme_images/lighthouse_mobile_2.png)
+
+## Notepad++
+I used Notepad++ to check the code for missing quotes. There I found one class and one id where I had missed the quotes:  
+![Check in Notepad ++](assets/images/readme_images/check_notepad.png)  
