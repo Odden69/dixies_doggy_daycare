@@ -94,8 +94,8 @@ A really big thank you to all my fellow slackers who are always there and ready 
 I really don't want to mention any specific slacker, in case i miss someone, but I do have to mention "Team Noiseland", the amazing team I joined the 2021 Retro Gaming Hackathon of Code Institute with. The members have taken a lot of time to review and comment the project.
 
 ### Code
-A lot of inspiration to the coding was taken from "The coders coffeehouse" and "Love running" which are projects included in the course at Code Institute.
-To read more about different elements or properties I ended up on mainly two pages: w3school and css-trick.com
+A lot of inspiration to the coding was taken from "The coders coffeehouse" and "Love running" which are projects included in the course at Code Institute.  
+To read more about different elements or properties I ended up on mainly two pages: [w3school](https://www.w3schools.com/), [css-tricks.com](https://css-tricks.com/) and [stackoverflow.com](https://stackoverflow.com/)
 
 - The code for the Popup forms was taken from [W3schools](https://www.w3schools.com/howto/howto_js_popup_form.asp), even if I had to make quite a lot of adjustments to make it fill my needs.
 - The code for the Back to Top button was taken from [W3schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) and was used almost unchanged.
