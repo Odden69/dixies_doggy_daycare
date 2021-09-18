@@ -56,8 +56,8 @@ The decision to make the page look like it does, without header and footer, was 
 
 #### Thank You Page
 This page is only viewed as a result of submitting the application form the apply here page. It gives the user a confirmation of the submission and sends a positive message from the daycare centre.  
-The thank you page has the same header and footer as the home page to let the user easily find the way back to the rest of the site. 
-![Thank you page](assets/images/readme_images/.png)
+The thank you page has the same header and footer as the home page to let the user easily find the way back to the rest of the site.  
+![Thank you page](assets/images/readme_images/thank-you.png)
 
 ### Features Left to Implement
 These are some features I would love to add to the site in the future:
@@ -108,6 +108,5 @@ All the images was downloaded from different open source sites.
 - The two group pictures of dogs: Photo by [Blue Bird](https://www.pexels.com/sv-se/@blue-bird?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) on [Pexels](https://www.pexels.com/sv-se/foto/kvinna-djur-hund-husdjur-7210705/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
 - The Bernese Mountain Dog: [Unsplash](https://unsplash.com/)
 - The favicon icon was generated on [Favicon](https://favicon.io/favicon-generator/).
-
 
 
