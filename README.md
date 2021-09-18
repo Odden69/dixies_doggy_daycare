@@ -67,13 +67,15 @@ These are some features I would love to add to the site in the future:
 Even further in the future there might be possible to add a more advanced communication tool where the customers have a log in and, among other things, can see posted pictures of their dog's day.
 
 ## Testing
-This section can be found in a separat document: XXX
+The work with fixing the errors that first was the results of the validation is described in this document: validation-process.md
+- __HTML__: In the end no errors were returned when passing through the official [Jigsaw Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fodden69.github.io%2Fdixies_doggy_daycare%2F)
+- __CSS__: No errors were returned when passing through the official [W3C Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fodden69.github.io%2Fdixies_doggy_daycare%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Bugs left unfixed
-There are som work left to be done on the Roboto font family. Problems with the bold font gives an unfavorable look to the site when viewed on Firefox or Safari browsers. 
+There are som work left to be done on the Roboto font family. When testing the website on different browsers I realized that the bold font were not shown correctly since I hadn't added the bold font weight. It was not as easy as just adding it since the page did not behave the same anymore. This work will have to be done at a later stage.
 
 ## The Project Development Process
-This section can be found on a separat document: [dev-process.md](dev-process.md)
+This section can be found on this separat document: dev-process.md
 
 ## Deployment
 This site was deployed to GitHub pages. To deploy a site follow these steps:
