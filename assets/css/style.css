@@ -225,7 +225,7 @@ header {
 /* Cover text */
 .cover-text {
     width: 301px;
-    height: 150px;
+    height: 140px;
     background-color: rgba(224, 184, 192, 0.8);
     left: 5%;
     bottom: 75px;
@@ -234,7 +234,7 @@ header {
 }
 
 .cover-text>h2 {
-    font-size: 150%;
+    font-size: 140%;
     margin-bottom: 15px;
     line-height: 1.5;
 }
@@ -250,11 +250,12 @@ header {
 }
 
 #whats-up>h2 {
-    font-size: 150%;
+    font-size: 140%;
     margin-bottom: 10px;
 }
 
 #whats-up>h3 {
+    font-size: 105%;
     margin-bottom: 5px;
 }
 
@@ -602,11 +603,11 @@ textarea {
     }
 
     .cover-text>h2 {
-        font-size: 100%;
+        font-size: 90%;
     }
 
     #whats-up {
-        width: 175px;
+        width: 178px;
         height: 100px;
         right: 5%;
         top: 70%;
@@ -614,11 +615,11 @@ textarea {
     }
 
     #whats-up>h2 {
-        font-size: 95%;
+        font-size: 90%;
     }
 
     #whats-up>h3 {
-        font-size: 85%;
+        font-size: 78%;
     }
 
     /* Footer */
@@ -672,11 +673,11 @@ textarea {
     }
 
     .cover-text>h2 {
-        font-size: 100%;
+        font-size: 90%;
     }
 
     #whats-up {
-        width: 175px;
+        width: 178px;
         height: 100px;
         right: 5%;
         top: 355px;
@@ -684,11 +685,11 @@ textarea {
     }
 
     #whats-up>h2 {
-        font-size: 95%;
+        font-size: 90%;
     }
 
     #whats-up>h3 {
-        font-size: 85%;
+        font-size: 78%;
     }
 
     /* Footer */
