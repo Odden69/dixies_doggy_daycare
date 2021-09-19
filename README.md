@@ -1,6 +1,7 @@
 <h1><span style="fontfamily: Pacifico;">Dixie's</span> Doggy Daycare</h1>
 
-Dixie's Doggy Daycare is a site developt for "Dixie's", a daycare center for dogs living in Swindon, United Kingdom. The site describes and promotes the company and provides a way of communication between daycare owner and customers. The site's goal is to attract new customers, give current customers an easy way to make temporary changes to their schedule and to give the daycare owner an opportunity to post upcoming events. A visitor at the website will find a description of the day care centre, links to the daycare's social media pages, opening hours and prizes and also the centre's adress and phone number. Interested dog owners can fill out a form to make a preliminary application for a place at the centre.<br>
+Dixie's Doggy Daycare is a site developt for "Dixie's", a daycare center for dogs living in Swindon, United Kingdom. The site describes and promotes the company and provides a way of communication between daycare owner and customers. The site's goal is to attract new customers, give current customers an easy way to make temporary changes to their schedule and to give the daycare owner an opportunity to post upcoming events. A visitor at the website will find a description of the day care centre, links to the daycare's social media pages, opening hours and prizes and also the centre's adress and phone number. Interested dog owners can fill out a form to make a preliminary application for a place at the centre.  
+The site is built to be user friendly and easy to navigate and use, for first time as well as return visitors.
 A live link to the website: https://odden69.github.io/dixies_doggy_daycare/
 
 ![AmIResponsive](assets/images/readme_images/amiresp.png)
@@ -70,12 +71,12 @@ Even further in the future there might be possible to add a more advanced commun
 The work with fixing the errors that first was the results of the validation is described in this document: validation-process.md
 - __HTML__: In the end no errors were returned when passing through the official [Jigsaw Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fodden69.github.io%2Fdixies_doggy_daycare%2F)
 - __CSS__: No errors were returned when passing through the official [W3C Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fodden69.github.io%2Fdixies_doggy_daycare%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- __Lighthouse__: The resluts of the lighthouse evaluation in the Chrome development tool can be found in validation-process.md.
+- __Responsivity__: The Chrome development tool and the site https://responsivedesignchecker.com/ has been used to check the responsivity of the web-site. The site works all right on all the available predefined screen sizes. 
+- __Compatibility__: The site has been checked for compatibility on Chrome, Edge, Firefox and Safari.
 
 ### Bugs left unfixed
 There are som work left to be done on the Roboto font family. When testing the website on different browsers I realized that the bold font were not shown correctly since I hadn't added the bold font weight. It was not as easy as just adding it since the page did not behave the same anymore. This work will have to be done at a later stage.
-
-## The Project Development Process
-This section can be found on this separat document: dev-process.md
 
 ## Deployment
 This site was deployed to GitHub pages. To deploy a site follow these steps:
@@ -88,25 +89,34 @@ This site was deployed to GitHub pages. To deploy a site follow these steps:
 https://odden69.github.io/dixies_doggy_daycare/
 
 ## Credits
-First of all I want to thank my Mentor, Maria Hynes, who has supported me through the project with lots of valuable advice to encouragement.
-The Tutors at Code Institue were there when I ran my head into the wall and needed guidence.
-A really big thank you to all my fellow slackers who are always there and ready to listen and support, wether I am having a technical issue or just a need for mental support.
-I really don't want to mention any specific slacker, in case i miss someone, but I do have to mention "Team Noiseland", the amazing team I joined the 2021 Retro Gaming Hackathon of Code Institute with. The members have taken a lot of time to review and comment the project.
-
 ### Code
 A lot of inspiration to the coding was taken from "The coders coffeehouse" and "Love running" which are projects included in the course at Code Institute.  
-To read more about different elements or properties I ended up on mainly two pages: [w3school](https://www.w3schools.com/), [css-tricks.com](https://css-tricks.com/) and [stackoverflow.com](https://stackoverflow.com/)
+To learn more about different elements or properties I ended up on mainly these pages: [W3schools](https://www.w3schools.com/), [CSS-TRICKS](https://css-tricks.com/) and [stackoverflow](https://stackoverflow.com/)
 
 - The code for the Popup forms was taken from [W3schools](https://www.w3schools.com/howto/howto_js_popup_form.asp), even if I had to make quite a lot of adjustments to make it fill my needs.
 - The code for the Back to Top button was taken from [W3schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) and was used almost unchanged.
+- A way to create the square text fields on the about us page was found on [W3schools](https://www.w3schools.com/howto/howto_css_aspect_ratio.asp).
 
 ### Images
-All the images was downloaded from different open source sites.
-- The hero image: Photo by [Joséphine Menge](https://unsplash.com/@madamemenge?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/dog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-- The Dalmatian puppy: [Freeimages](https://www.freeimages.com)
-- The two buddies: Photo by [Burst](href="https://stocksnap.io/author/burstshopify") on [StockSnap](href="https://stocksnap.io")
-- The two group pictures of dogs: Photo by [Blue Bird](https://www.pexels.com/sv-se/@blue-bird?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) on [Pexels](https://www.pexels.com/sv-se/foto/kvinna-djur-hund-husdjur-7210705/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
-- The Bernese Mountain Dog: [Unsplash](https://unsplash.com/)
-- The favicon icon was generated on [Favicon](https://favicon.io/favicon-generator/).
+- All the images were downloaded from different open source sites.
+  - The hero image: Photo by [Joséphine Menge](https://unsplash.com/@madamemenge?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/dog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  - The Dalmatian puppy: [Freeimages](https://www.freeimages.com)
+  - The two buddies: Photo by [Burst](href="https://stocksnap.io/author/burstshopify") on [StockSnap](href="https://stocksnap.io")
+  - The two group pictures of dogs: Photo by [Blue Bird](https://www.pexels.com/sv-se/@blue-bird?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) on [Pexels](https://www.pexels.com/sv-se/foto/kvinna-djur-hund-husdjur-7210705/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+  - The Bernese Mountain Dog: [Unsplash](https://unsplash.com/)
+- The favicon icon was generated on [Favicon](https://favicon.io/favicon-generator/).  
+- The images were cropped using Windows Photos App and rezised using Microsoft Paint.  
+- [Optimizilla](https://imagecompressor.com/) was used to compress the images.
 
+### Other used applications
+- The markdown was made in google documents and the document in pdf format could be read [here](assets/documents/markdown.pdf).
+- I used [Adobe Color](https://color.adobe.com/) to draw a couple of main colours from the hero image and [coolors](https://coolors.co/) to generate a colour scheme from those colours.  
+The contrast of the colour scheme was checked on [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A984152%2C%20logo%20and%20button%0D%0Ac2b2b4%2C%20post-it%0D%0A465c69%0D%0A001414%2C%20text%0D%0Ac5fffd%2C%20%0D%0A%23e4e4e2%2C%20header%20footer&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp).
+- The two fonts Pacifico, used for the logo, and Roboto, used for the text on the website, was taken from [Google Fonts](https://fonts.google.com/).
+- Icons from [Font Awsome](https://fontawesome.com/) where used for the social media links and the change schedule icon.
 
+## Special Thanks to
+First of all I want to thank my Mentor, Maria Hynes, who has supported me through the project with lots of valuable advice and encouragement.  
+The Tutors at Code Institue were there when I really got stuck and needed guidence. They supported me to find sollutions for problems with the sticky footer and responsivness on the About us page.  
+A really big thank you to all my fellow slackers who are always there and ready to listen and give support, wether I am having a technical issue or just a need for mental support.  
+I really don't want to mention any specific slacker, in case i miss someone, but I do have to mention ["Team Noiseland"](https://github.com/andrewdempsey2018/The-Never-Ending-Coding-Adventure-Codehog-Day), the amazing team I joined the 2021 Retro Gaming Hackathon of Code Institute with. The members have taken a lot of time to review and comment the project.

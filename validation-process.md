@@ -58,4 +58,12 @@ the result was much better:
 
 ## Notepad++
 I used Notepad++ to check the code for missing quotes. There I found one class and one id where I had missed the quotes:  
-![Check in Notepad ++](assets/images/readme_images/check_notepad.png)  
+![Check in Notepad ++](assets/images/readme_images/check_notepad.png)
+
+## Compatibility and Responsivity
+I used the Chrome browser validation tool and the site https://responsivedesignchecker.com/ to do the responsivity checks.
+The website is responsive to all sizes available on these sites.  
+
+## Colour Scheme
+The contrasts of the colour scheme was tested on [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A984152%2C%20logo%20and%20button%0D%0Ac2b2b4%2C%20post-it%0D%0A465c69%0D%0A001414%2C%20text%0D%0Ac5fffd%2C%20%0D%0A%23e4e4e2%2C%20header%20footer&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp)  
+![Colour scheme validation](assets/images/readme_images/color_scheme.png).
