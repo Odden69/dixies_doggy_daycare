@@ -1,4 +1,4 @@
-<h1><span style="fontfamily: Pacifico;">Dixie's</span> Doggy Daycare</h1>
+# ![Logo](assets/images/readme_images/logo.png) Doggy Daycare
 
 Dixie's Doggy Daycare is a site developed for "Dixie's", a daycare center for dogs living in Swindon, United Kingdom. The site describes and promotes the company and provides a way of communication between daycare owner and customers. The site's goal is to attract new customers, give current customers an easy way to make temporary changes to their schedule and to give the daycare owner an opportunity to post upcoming events. A visitor at the website will find a description of the day care centre, links to the daycare's social media pages, opening hours and prizes and also the centre's address and phone number. Interested dog owners can fill out a form to make a preliminary application for a place at the centre.  
 The site is built to be user friendly and easy to navigate and use, for first time as well as return visitors.

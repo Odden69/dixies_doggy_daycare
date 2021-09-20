@@ -46,15 +46,17 @@ The first attempt of validating the apply-here.html file gave these errors:
 No errors were found when running the thank-you.html file through the test on validator.w3.org.
 
 ## Lighthouse check
+The result of the first lighthouse check on the mobile device was a bit low:  
+![Lighthouse check on mobile](assets/images/readme_images/lighthouse_mobile.png)  
+- __Performance__: The issue shown in the lighthouse check was primarly the size of the hero image. I cropped the image and compressed it again.  
+- __Accessibility__: The lighthouse check brought my attention to the spacing between the socialmeda icons so I increased the margin on those.
+- __SEO__: I had missed the Aria labels on the navigation bar links.  
+
+After taking these measures the result was much better:  
+![Lighthouse check on mobile](assets/images/readme_images/lighthouse_mobile_2.png)
+
 I was pretty happy with the lighthouse check on desktop:  
 ![Lighthouse check on desktop](assets/images/readme_images/lighthouse_desktop.png) 
-
-The first lighthouse check on the mobile device was not as good:  
-![Lighthouse check on mobile](assets/images/readme_images/lighthouse_mobile.png)  
-But after changing the size of the hero image, and compressing it again,  
-![Compressing hero image](assets/images/readme_images/comp_hero_img.png)  
-the result was much better:  
-![Lighthouse check on mobile](assets/images/readme_images/lighthouse_mobile_2.png)
 
 ## Notepad++
 I used Notepad++ to check the code for missing quotes. There I found one class and one id where I had missed the quotes:  
