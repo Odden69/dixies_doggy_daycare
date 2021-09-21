@@ -120,3 +120,6 @@ First of all I want to thank my Mentor, Maria Hynes, who has supported me throug
 The Tutors at Code Institue were there when I really got stuck and needed guidance. They supported me to find solutions for problems I had with the sticky footer and responsiveness on the About us page.  
 A really big thank you to all my fellow slackers who are always there and ready to listen and give support, whether I am having a technical issue or just a need for moral support.  
 I really don't want to mention any specific slacker, in case I miss someone, but I do have to mention ["Team Noiseland"](https://github.com/andrewdempsey2018/The-Never-Ending-Coding-Adventure-Codehog-Day), the amazing team I joined in the 2021 Retro Gaming Hackathon of Code Institute. The members have taken a lot of their time to review and comment on the project.
+
+## Conclusion
+Taking on a project like this for the very first time has been very fulfilling and extremely frustrating. Looking back I can see that I have learned so much. It has been a lot of trial and error and a lot of frustrating hours when nothing has gone my way. But then, all of a sudden, a webpage with the sollution pops up or a fellow slacker reaches out a hand, and everything just lights up. But what I really has realized is how much there is left to learn. I am really looking forward to this journey I just started.
