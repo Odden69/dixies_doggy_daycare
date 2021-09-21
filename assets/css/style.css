@@ -6,7 +6,7 @@
 */
 
 /*Logo font*/
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300;400&display=swap');
 
 * {
     margin: 0;
@@ -752,7 +752,7 @@ textarea {
     }
 
     .cover-text {
-        width: 160px;
+        width: 195px;
         height: 95px;
         top: 267px;
         padding: 10px;
@@ -763,7 +763,7 @@ textarea {
     }
 
     #whats-up {
-        width: 150px;
+        width: 185px;
         height: 85px;
         top: 390px;
     }
