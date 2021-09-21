@@ -72,11 +72,11 @@ The work with fixing the errors that first was the results of the validation is 
 - __HTML__: In the end no errors were returned when passing through the official [Jigsaw Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fodden69.github.io%2Fdixies_doggy_daycare%2F)
 - __CSS__: No errors were returned when passing through the official [W3C Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fodden69.github.io%2Fdixies_doggy_daycare%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - __Lighthouse__: The results of the lighthouse evaluation in the Chrome development tool can be found in validation-process.md.
-- __Responsivity__: The Chrome development tool and the site https://responsivedesignchecker.com/ has been used to check the responsivity of the web-site. The site works all right on all the available predefined screen sizes. 
+- __Responsivity__: The Chrome development tool and the site https://responsivedesignchecker.com/ has been used to check the responsivity of the web-site. The site works all right on all the available predefined screen sizes down to a width of 320px. For really narrow or tall screens the footer is extended upwards to avoid gaps.
 - __Compatibility__: The site has been checked for compatibility on Chrome, Edge, Firefox and Safari.
 
 ### Bugs left unfixed
-There are some work left to be done on the Roboto font family. When testing the website on different browsers I realized that the bold font were not shown correctly since I hadn't added the bold font weight. It was not as easy as just adding it since the page did not behave the same anymore. This work will have to be done at a later stage.
+The link on the What's up bulletin board leads to the same apply here page as the link in the nav bar. The link should insted lead to a page adopted to the message on the bulletin board. This will have to be fixed before launching the web site.
 
 ## Deployment
 This site was deployed to GitHub pages. To deploy a site follow these steps:
@@ -117,6 +117,6 @@ The contrast of the colour scheme was checked on [Contrast Grid](https://contras
 
 ## Special Thanks to
 First of all I want to thank my Mentor, Maria Hynes, who has supported me through the project with lots of valuable advice and encouragement.  
-The Tutors at Code Institue were there when I really got stuck and needed guidance. They supported me to find solutions for problems with the sticky footer and responsiveness on the About us page.  
+The Tutors at Code Institue were there when I really got stuck and needed guidance. They supported me to find solutions for problems I had with the sticky footer and responsiveness on the About us page.  
 A really big thank you to all my fellow slackers who are always there and ready to listen and give support, whether I am having a technical issue or just a need for moral support.  
-I really don't want to mention any specific slacker, in case I miss someone, but I do have to mention ["Team Noiseland"](https://github.com/andrewdempsey2018/The-Never-Ending-Coding-Adventure-Codehog-Day), the amazing team I joined the 2021 Retro Gaming Hackathon of Code Institute with. The members have taken a lot of their time to review and comment on the project.
+I really don't want to mention any specific slacker, in case I miss someone, but I do have to mention ["Team Noiseland"](https://github.com/andrewdempsey2018/The-Never-Ending-Coding-Adventure-Codehog-Day), the amazing team I joined in the 2021 Retro Gaming Hackathon of Code Institute. The members have taken a lot of their time to review and comment on the project.
