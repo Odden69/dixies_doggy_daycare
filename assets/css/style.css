@@ -224,12 +224,12 @@ header {
 
 /* Cover text */
 .cover-text {
-    width: 301px;
-    height: 140px;
+    width: 285px;
+    height: 150px;
     background-color: rgba(224, 184, 192, 0.8);
     left: 5%;
     bottom: 75px;
-    padding: 25px;
+    padding: 18px;
     position: absolute;
 }
 
@@ -239,35 +239,36 @@ header {
     line-height: 1.5;
 }
 
-#whats-up {
-    width: 240px;
-    height: 110px;
+.cover-text>button {
+    padding: 6px;
+    margin: 0 auto;
+    display: block;
+    font-size: 120%
+}
+
+.cover-text>button:hover {
+    padding: 8px;
+    font-size: 130%;
+}
+
+#next-event {
+    width: 242px;
+    height: 133px;
     background-color: rgba(224, 184, 192, 0.8);
     right: 2%;
     bottom: 50px;
-    padding: 25px;
+    padding: 18px;
     position: absolute;
 }
 
-#whats-up>h2 {
+#next-event>h2 {
     font-size: 140%;
     margin-bottom: 10px;
 }
 
-#whats-up>h3 {
+#next-event>h3 {
     font-size: 105%;
     margin-bottom: 5px;
-}
-
-#whats-up>button {
-    padding: 6px;
-    margin: 0 auto;
-    display: block;
-}
-
-#whats-up>button:hover {
-    padding: 8px;
-    font-size: 100%;
 }
 
 /* Footer */
@@ -606,7 +607,15 @@ textarea {
         font-size: 90%;
     }
 
-    #whats-up {
+    .cover-text>button {
+        font-size: 85%;
+    }
+
+    .cover-text>button:hover {
+        font-size: 100%;
+    }
+
+    #next-event {
         width: 178px;
         height: 100px;
         right: 5%;
@@ -614,11 +623,11 @@ textarea {
         padding: 12px;
     }
 
-    #whats-up>h2 {
+    #next-event>h2 {
         font-size: 90%;
     }
 
-    #whats-up>h3 {
+    #next-event>h3 {
         font-size: 78%;
     }
 
@@ -676,7 +685,15 @@ textarea {
         font-size: 90%;
     }
 
-    #whats-up {
+    .cover-text>button {
+        font-size: 85%;
+    }
+
+    .cover-text>button:hover {
+        font-size: 100%;
+    }
+
+    #next-event {
         width: 178px;
         height: 100px;
         right: 5%;
@@ -684,11 +701,11 @@ textarea {
         padding: 12px;
     }
 
-    #whats-up>h2 {
+    #next-event>h2 {
         font-size: 90%;
     }
 
-    #whats-up>h3 {
+    #next-event>h3 {
         font-size: 78%;
     }
 
@@ -760,23 +777,28 @@ textarea {
 
     .cover-text>h2 {
         font-size: 80%;
+        margin-bottom: 3px;
     }
 
-    #whats-up {
-        width: 185px;
-        height: 85px;
-        top: 390px;
-    }
-
-    #whats-up>h2 {
-        font-size: 85%;
-    }
-
-    #whats-up>h3 {
+    .cover-text>button {
         font-size: 75%;
     }
 
-    #whats-up>button {
+    .cover-text>button:hover {
+        font-size: 90%;
+    }
+
+    #next-event {
+        width: 185px;
+        height: 95px;
+        top: 400px;
+    }
+
+    #next-event>h2 {
+        font-size: 85%;
+    }
+
+    #next-event>h3 {
         font-size: 75%;
     }
 
