@@ -32,7 +32,7 @@ The footer gives the owner a possibility to send the user on to other media to p
 
 #### Change Schedule Feature
 This feature meets a daycare centre customer's need to be able to easily make changes to his or her daycare schedule. When you wake up sick, the last thing you want to do is to start calling everyone who needs to know about the situation. Now there is one less call to make. Just go to the website and make a note in the form and that is taken care of.  
-When the form has been filled out another note pops up to confirm the submission. This allows the user to stay on the same page and not be directed to another thank you page after submission.
+When the form has been filled out another note pops up to confirm the submission. This allows the user to stay on the same page and not be directed to another thank you page after submission.  
 ![Change Schedule Button](assets/images/readme_images/cs_header.png)
 ![Change Schedule Form](assets/images/readme_images/cs_form.png)
 ![Change Schedule Thanks](assets/images/readme_images/cs_thanks.png)  
