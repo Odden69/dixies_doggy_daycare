@@ -38,6 +38,7 @@
         <!-- adjusted with an extra pop up thank you note and a closing X -->
         <div class="change-schedule" onclick="openForm()"><i class="far fa-calendar-alt logo-color"></i>
             <span class="cs-text">Change my schedule</span></div>
+        <!-- div with id="myForm" is hidden until the user klicks on the Change schedule button-->
         <div class="form-popup" id="myForm">
             <form action="javascript:closeForm(); openCsThanks();" class="form-container">
                 <label for="cs-dogs-name">Dog's name:</label>
@@ -52,6 +53,7 @@
                 </button>
             </form>
         </div>
+        <!-- div with id="csThanks" is hidden until the user klicks on the submit button of the Change schedule form-->
         <div class="form-thanks" id="csThanks">
             <b>Thank you for using our web tool to change your schedule.</b>
             <button type="button" class="cancel" onclick="closeCsThanks()" value="">

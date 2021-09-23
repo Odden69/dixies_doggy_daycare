@@ -437,6 +437,10 @@ footer i {
 /* En of code for Back to top button */
 
 /* Application form*/
+.show-on-small {
+    display: none;
+}
+
 #apply-here-container {
     margin: auto 0;
 }
@@ -906,6 +910,14 @@ textarea {
 @media screen and (max-width: 530px) {
 
     /* Application form*/
+    .show-on-small {
+        display: block;
+    }
+
+    #appl-logo {
+        display: none;
+    }
+
     #appl-logo {
         height: 115px;
     }

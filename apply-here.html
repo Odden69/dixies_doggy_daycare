@@ -16,11 +16,56 @@
 </head>
 
 <body class="dark-text">
-    <div id="apply-here-container">
-        <div id="appl-logo">
-            <a href="index.html" aria-label="Go to homepage" class="logo-color">Dixie’s</a>
+    <header class=show-on-small>
+        <a href="index.html">
+            <h1 id="logo-top" class="logo-color">Dixie's</h1>
+        </a>
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a href="index.html" class="dark-text" aria-label="Go to homepage">Home</a>
+                </li>
+                <li>
+                    <a href="about-us.html" class="dark-text" aria-label="Go to About us">About us</a>
+                </li>
+                <li>
+                    <a href="apply-here.html" class="active" aria-label="Go to Apply here">Apply here</a>
+                </li>
+            </ul>
+            <div></div>
+        </nav>
+        <!-- This feature was based on https://www.w3schools.com/howto/howto_js_popup_form.asp -->
+        <!-- adjusted with an extra pop up thank you note and a closing X -->
+        <div class="change-schedule" onclick="openForm()"><i class="far fa-calendar-alt logo-color"></i>
+            <span class="cs-text">Change my schedule</span></div>
+        <!-- div with id="myForm" is hidden until the user klicks on the Change schedule button-->
+        <div class="form-popup" id="myForm">
+            <form action="javascript:closeForm(); openCsThanks();" class="form-container">
+                <label for="cs-dogs-name">Dog's name:</label>
+                <input id="cs-dogs-name" type="text" name="cs-dogs-name" required>
+                <label for="cs-date">Date for schedule change:</label>
+                <input id="cs-date" type="date" name="cs-date" required>
+                <label for="cs-text">New schedule for the date:</label>
+                <input id="cs-text" type="text" name="cs-text" required>
+                <button type="submit" class="button">Submit</button>
+                <button type="button" class="cancel" onclick="closeForm();" value="">
+                    <i class="fas fa-times"></i>
+                </button>
+            </form>
         </div>
-        <section>
+        <!-- div with id="csThanks" is hidden until the user klicks on the submit button of the Change schedule form-->
+        <div class="form-thanks" id="csThanks">
+            <b>Thank you for using our web tool to change your schedule.</b>
+            <button type="button" class="cancel" onclick="closeCsThanks()" value="">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </header>
+    <section>
+        <div id="apply-here-container">
+            <div id="appl-logo">
+                <a href="index.html" aria-label="Go to homepage" class="logo-color">Dixie’s</a>
+            </div>
             <div id="app-form-container">
                 <div id="apply">
                     <h2>Make a preliminary application.</h2>
@@ -79,10 +124,63 @@
                     </form>
                 </div>
             </div>
-        </section>
-        <!-- <a href="thank-you.html">thanks</a> -->
-    </div>
-    <!-- font awsome script -->
+        </div>
+    </section>
+    <footer class=show-on-small>
+        <div id="footer-container">
+            <ul class="social-media-links">
+                <li>
+                    <a href="http://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)">
+                        <p><i class="fab fa-facebook"></i><span id="facebook">Facebook</span></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://instagram.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)">
+                        <p><i class="fab fa-instagram"></i><span id="instagram">Instagram</span></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://twitter.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page (opens in a new tab)">
+                        <p><i class="fab fa-twitter"></i><span id="twitter">Twitter</span></p>
+                    </a>
+                </li>
+            </ul>
+            <ul class="footer-center">
+                <li id="logo-bottom" class="logo-color">Dixie's</li>
+                <li id="copyright">© Dixie's 2021</li>
+            </ul>
+            <ul class="contacts">
+                <li>4 Old Mill Ln, Swindon</li>
+                <li>Tel.: 1793 1234 564789</li>
+                <li>dixies@doggies.uk</li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Script for popup form -->
+    <!-- The snippet of code for the popup form was copied from https://www.w3schools.com/howto/howto_js_popup_form.asp-->
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+
+        function openCsThanks() {
+            document.getElementById("csThanks").style.display = "block";
+        }
+
+        function closeCsThanks() {
+            document.getElementById("csThanks").style.display = "none";
+        }
+    </script>
+
+    <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/d8621bf8e1.js" crossorigin="anonymous"></script>
 </body>
 
