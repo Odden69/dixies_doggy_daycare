@@ -12,7 +12,7 @@ The first attempt of validating the index.html file gave these errors:
 When those were added, the errors were solved.  
 ![Index file errors fix](assets/images/readme_images/error_index_fix.png)  
   
-- Error number 1 was not obvious to me how to solve since I didn't have a database where to send the information or a thank you page where I could send the user. But this issue got solved by adding the javascripts, which closes the form and opens the thank you note, to the action.  
+- Error number 1 was not obvious to me how to solve since I didn't have a database where to send the information or a thank you page where I could send the user. But this issue got solved by adding the javascript, which closes the form and opens the thank you note, to the action.  
 ![Index file error fix](assets/images/readme_images/error_index_fix_2.png)
 
 ### about-us.html
