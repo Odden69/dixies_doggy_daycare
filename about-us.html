@@ -34,30 +34,41 @@
             </ul>
             <div></div>
         </nav>
-        <!-- The snippet of code for the popup form was copied from https://www.w3schools.com/howto/howto_js_popup_form.asp-->
-        <!-- a bit adjusted to apply -->
-        <div class="change-schedule" onclick="openForm()"><i class="far fa-calendar-times logo-color"></i><span
-                class="cs-text">Change my schedule</span></div>
-        <div class="form-popup" id="myForm">
-            <form action="javascript:closeForm(); openCsThanks();" class="form-container">
-                <label for="cs-dogs-name">Dog's name:</label>
-                <input id="cs-dogs-name" type="text" name="cs-dogs-name" required>
-                <label for="cs-date">Date for schedule change:</label>
-                <input id="cs-date" type="date" name="cs-date" required>
-                <label for="cs-text">New schedule for the date:</label>
-                <input id="cs-text" type="text" name="cs-text" required>
-                <button type="submit" class="button">Submit</button>
-                <button type="button" class="cancel" onclick="closeForm();" value="">
-                    <i class="fas fa-times"></i>
-                </button>
-            </form>
-        </div>
-        <div class="form-thanks" id="csThanks">
-            <b>Thank you for using our web tool to change your schedule.</b>
-            <button type="button" class="cancel" onclick="closeCsThanks()" value="">
+        <!-- This feature was based on https://www.w3schools.com/howto/howto_js_popup_form.asp -->
+        <!-- adjusted with an extra pop up thank you note and a closing X -->
+        <div class="change-schedule" onclick="openForm(); closeCsThanks();"><i
+            class="far fa-calendar-alt logo-color"></i>
+        <span class="cs-text">Change my schedule</span></div>
+    <!-- div with id="myForm" is hidden until the user klicks on the Change schedule button-->
+    <div class="form-popup" id="myForm">
+        <form action="javascript:closeForm(); openCsThanks();" class="form-container">
+            <label for="cs-dogs-name">Dog's name:</label>
+            <input id="cs-dogs-name" type="text" name="cs-dogs-name" required>
+            <label for="cs-date">Date for schedule change:</label>
+            <input id="cs-date" type="date" name="cs-date" required>
+            <div class=cs-time>
+                <label for="cs-start-time">New start time:</label><br>
+                <input id="cs-start-time" type="time" name="cs-start-time" required>
+            </div>
+            <div class=cs-time>
+                <label for="cs-coll-time">New collect time:</label><br>
+                <input id="cs-coll-time" type="time" name="cs-coll-time" required>
+            </div>
+            <label for="cs-text">Comment:</label>
+            <input id="cs-text" type="text" name="cs-text">
+            <button type="submit" class="button">Submit</button>
+            <button type="button" class="cancel" onclick="closeForm();" value="">
                 <i class="fas fa-times"></i>
             </button>
-        </div>
+        </form>
+    </div>
+    <!-- div with id="csThanks" is hidden until the user klicks on the submit button of the Change schedule form-->
+    <div class="form-thanks" id="csThanks">
+        <b>Thank you for using our web tool to change your schedule.</b>
+        <button type="button" class="cancel" onclick="closeCsThanks();" value="">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
     </header>
     <section class="about">
         <div class="center-text">
