@@ -34,10 +34,10 @@
             </ul>
             <div></div>
         </nav>
-        <!-- The snippet of code for the popup form was copied from https://www.w3schools.com/howto/howto_js_popup_form.asp-->
-        <!-- a bit adjusted to apply -->
-        <div class="change-schedule" onclick="openForm()"><i class="far fa-calendar-times logo-color"></i><span
-                class="cs-text">Change my schedule</span></div>
+        <!-- This feature was based on https://www.w3schools.com/howto/howto_js_popup_form.asp -->
+        <!-- adjusted with an extra pop up thank you note and a closing X -->
+        <div class="change-schedule" onclick="openForm()"><i class="far fa-calendar-alt logo-color"></i>
+            <span class="cs-text">Change my schedule</span></div>
         <div class="form-popup" id="myForm">
             <form action="javascript:closeForm(); openCsThanks();" class="form-container">
                 <label for="cs-dogs-name">Dog's name:</label>

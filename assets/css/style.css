@@ -102,6 +102,10 @@ header {
     border-radius: 3px;
 }
 
+.change-schedule i {
+    font-size: 120%;
+}
+
 .cs-text {
     margin-left: 8px;
 }
@@ -122,8 +126,8 @@ header {
 }
 
 /* Styling of the popup form */
-/* This snippet of code was copied from https://www.w3schools.com/howto/howto_js_popup_form.asp */
-/* a bit adjusted to apply */
+/* This snippet of code was based on https://www.w3schools.com/howto/howto_js_popup_form.asp */
+/* adjusted with an extra pop up thank you note and a closing X */
 .form-popup,
 .form-thanks {
     display: none;
@@ -177,12 +181,12 @@ header {
     cursor: pointer;
 }
 
-.form-container label {
-    margin-bottom: 10px;
-}
-
 .cancel:hover {
     font-size: 22px;
+}
+
+.form-container label {
+    margin-bottom: 10px;
 }
 
 /* End of popup form */
