@@ -36,7 +36,7 @@
         </nav>
         <!-- This feature was based on https://www.w3schools.com/howto/howto_js_popup_form.asp -->
         <!-- adjusted with an extra pop up thank you note and a closing X -->
-        <div class="change-schedule" onclick="openForm()"><i class="far fa-calendar-alt logo-color"></i>
+        <div class="change-schedule" onclick="openForm(); closeCsThanks();"><i class="far fa-calendar-alt logo-color"></i>
             <span class="cs-text">Change my schedule</span></div>
         <!-- div with id="myForm" is hidden until the user klicks on the Change schedule button-->
         <div class="form-popup" id="myForm">
@@ -56,7 +56,7 @@
         <!-- div with id="csThanks" is hidden until the user klicks on the submit button of the Change schedule form-->
         <div class="form-thanks" id="csThanks">
             <b>Thank you for using our web tool to change your schedule.</b>
-            <button type="button" class="cancel" onclick="closeCsThanks()" value="">
+            <button type="button" class="cancel" onclick="closeCsThanks();" value="">
                 <i class="fas fa-times"></i>
             </button>
         </div>
