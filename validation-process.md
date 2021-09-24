@@ -73,3 +73,7 @@ The website is responsive to all sizes available on these sites.
 ## Colour Scheme
 The contrasts of the colour scheme was tested on [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A984152%2C%20logo%20and%20button%0D%0Ac2b2b4%2C%20post-it%0D%0A465c69%0D%0A001414%2C%20text%0D%0Ac5fffd%2C%20%0D%0A%23e4e4e2%2C%20header%20footer&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp)  
 ![Colour scheme validation](assets/images/readme_images/color_scheme.png).
+
+## User error found
+There is a possibility a user can push the change schedule button while the thank you note is open. To avoid the result of two popup windows I added a closeCsThanks() function to the change schedule button.  
+![Colour scheme validation](assets/images/readme_images/user_error.png)
