@@ -115,7 +115,7 @@ To learn more about different elements or properties I ended up on mainly these 
 The contrast of the colour scheme was checked on [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A984152%2C%20logo%20and%20button%0D%0Ac2b2b4%2C%20post-it%0D%0A465c69%0D%0A001414%2C%20text%0D%0Ac5fffd%2C%20%0D%0A%23e4e4e2%2C%20header%20footer&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp).
 - The two fonts Pacifico, used for the logo, and Roboto, used for the text on the website, were taken from [Google Fonts](https://fonts.google.com/).
 - Icons from [Font Awesome](https://fontawesome.com/) where used for the social media links and the change schedule icon.
-- [Autoprefixer](https://autoprefixer.github.io/) was used to add prefixes to CSS to make the site compatible on Firefox.
+- [Autoprefixer](https://autoprefixer.github.io/) was used to add prefixes to CSS to make the site compatible with Firefox.
 
 
 ## Special Thanks to
