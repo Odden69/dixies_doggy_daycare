@@ -1,13 +1,17 @@
 # The Validation Process
 ## CSS
 No errors were found when running the style.css file through the test on jigsaw.w3.org.  
-![Test result css](assets/images/readme_images/no_error_css.png)
+![Test result css](assets/images/readme_images/no_error_css.png)  
+
+15 warnings were found. All origined from the code added by [Autoprefixer](https://autoprefixer.github.io/), but since it solved compatibility problems, I ignored these warnings.  
+![Warning in test result css](assets/images/readme_images/warnings_css.png)  
 
 ## HTML
 All html pages were run through validator.w3.org.
 ### index.html
 The first attempt of validating the index.html file gave these errors:  
-![Index file errors](assets/images/readme_images/error_index.png)  
+![Index file errors](assets/images/readme_images/error_in
+dex.png)  
 - Error number 2 through 4 was caused by an easy mistake. I had forgotten to add id:s to the input fields of the change schedule form.
 When those were added, the errors were solved.  
 ![Index file errors fix](assets/images/readme_images/error_index_fix.png)  

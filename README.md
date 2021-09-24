@@ -70,7 +70,7 @@ Even further in the future there might be possible to add a more advanced commun
 
 ## Testing
 Some of the validations rendered errors at first. How these errors were fixed is described in this document: [Validation Process](validation-process.md).
-- __CSS__: No errors were returned when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fodden69.github.io%2Fdixies_doggy_daycare%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv).
+- __CSS__: No errors were returned when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fodden69.github.io%2Fdixies_doggy_daycare%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 - __HTML__: In the end no errors were returned when passing through the official W3C Validator ([index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fodden69.github.io%2Fdixies_doggy_daycare%2Findex.html), [about-us.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fodden69.github.io%2Fdixies_doggy_daycare%2Fabout-us.html), [apply-here.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fodden69.github.io%2Fdixies_doggy_daycare%2Fapply-here.html), [thank-you.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fodden69.github.io%2Fdixies_doggy_daycare%2Fthank-you.html)).
 - __Lighthouse__: The results of the lighthouse evaluation in the Chrome development tool can be found in [Validation Process](validation-process.md).
 - __Responsivity__: The Chrome development tool and the site https://responsivedesignchecker.com/ has been used to check the responsivity of the web-site. The site works all right on all the available predefined screen sizes down to a width of 320px. For really narrow or tall screens the footer is extended upwards to avoid gaps.
@@ -115,6 +115,8 @@ To learn more about different elements or properties I ended up on mainly these 
 The contrast of the colour scheme was checked on [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A984152%2C%20logo%20and%20button%0D%0Ac2b2b4%2C%20post-it%0D%0A465c69%0D%0A001414%2C%20text%0D%0Ac5fffd%2C%20%0D%0A%23e4e4e2%2C%20header%20footer&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp).
 - The two fonts Pacifico, used for the logo, and Roboto, used for the text on the website, were taken from [Google Fonts](https://fonts.google.com/).
 - Icons from [Font Awesome](https://fontawesome.com/) where used for the social media links and the change schedule icon.
+- [Autoprefixer](https://autoprefixer.github.io/) was used to add prefixes to CSS to make the site compatible on Firefox.
+
 
 ## Special Thanks to
 First of all I want to thank my Mentor, Maria Hynes, who has supported me through the project with lots of valuable advice and encouragement.  
